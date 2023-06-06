@@ -32,6 +32,7 @@ https://github.com/RainbowJM/strandeiland
 <details>
 <summary>Week 2</summary>
 <br>
+  
 # Code 
 ## Hoe ging dit?
 
