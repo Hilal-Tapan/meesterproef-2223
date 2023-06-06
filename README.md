@@ -12,10 +12,20 @@ https://github.com/RainbowJM/strandeiland
   
 # Opstarten
   ## Eerste meeting met Michel Vogler
-  ## Briefing
+  
+  
+  ## Briefing (Eerste versie)
+  
   ## Feedback
+  Wij kregen feedback op onze briefing van zowel Joost als Michel. Dit was erg waardevol voor ons en zijn er gelijk mee aan de slag gegaan.
+  ### Joost
+  - 
+  
+  ### Michel
+  - 
+  
   ## Debriefing (itheratie)
-  De officiele eindbriefing is te vinden in deze link: (https://github.com/RainbowJM/strandeiland/wiki/Debriefing)[https://github.com/RainbowJM/strandeiland/wiki/Debriefing]
+  De officiele eindbriefing is te vinden in deze link: https://github.com/RainbowJM/strandeiland/wiki/Debriefing
   
 # Brainstorm
 ## Moscow Methode
