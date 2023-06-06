@@ -10,6 +10,12 @@ https://github.com/RainbowJM/strandeiland
 <summary>Week 1</summary>
 <br>
   
+# Opstarten
+  ## Eerste meeting met Michel Vogler
+  ## Briefing
+  ## Feedback
+  ## Debriefing (itheratie)
+  
 # Brainstorm
 ## Moscow Methode
 ## Requirement list
