@@ -9,6 +9,7 @@ https://github.com/RainbowJM/strandeiland
 <details>
 <summary>Week 1</summary>
 <br>
+  
 # Brainstorm
 ## Moscow Methode
 ## Requirement list
