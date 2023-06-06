@@ -15,6 +15,7 @@ https://github.com/RainbowJM/strandeiland
   ## Briefing
   ## Feedback
   ## Debriefing (itheratie)
+  De officiele eindbriefing is te vinden in deze link: (https://github.com/RainbowJM/strandeiland/wiki/Debriefing)[https://github.com/RainbowJM/strandeiland/wiki/Debriefing]
   
 # Brainstorm
 ## Moscow Methode
