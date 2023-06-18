@@ -131,13 +131,18 @@ We vonden het fijn om een moscow methode toe te passen zodat we een overzicht ha
 Vanuit Michel hebben we een brandbook gekregen die de gemeente van Amsterdam heeft ontworpen voor de website van strandeiland. Keisha heeft dit brandbook vertaald naar visuele elementen waar wij vervolgens mee hebben geschetst.
 
 ## Schetsen Detailpagina
+Na het opstarten hebben we de taken verdeeld over de groepsleden. Ik heb als taak gekregen om aan de slag te gaan met de detail pagina zowel in design als in code. Dus zodoende ben ik gestart met het maken van schetsen. Ook ben ik begonnen met het maken van schetsen van de chat functionaliteit omdat deze zich op de detailpagina bevind.
+
 ![eerste schets](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/eerste-schets.jpg)
+
 ![eerste schets](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/eerste-schets2.PNG)
-![chat schets]([https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/eerste-schets.jpg](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/chat-schets.jpg ))
+
+![chat schets](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/eerste-schets.jpg](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/chat-schets.jpg )
+
+## Figma design
 
 
-## Low fidality design 
-## High fidality itheratie
+## Design itheratie
 
 # Code 
 ## Hoe ging dit?
