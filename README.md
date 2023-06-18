@@ -140,7 +140,8 @@ Na het opstarten hebben we de taken verdeeld over de groepsleden. Ik heb als taa
 ![chat schets](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/chat-schets.jpg)
 
 ## Figma design
-Na het schetsen ben ik begonnen dit uit te werken in Figma. Hier hebben we live in een shared file gewerkt met components en visuele elementen uit de brandbook. Ik heb vier verschillende schetsen gemaakt van de detail page om te presenteren aan de opdrachtgever. Ik vond het best lastig omdat ik de huisstijl en grid van de website niet heel mooi vind. Maar toch heb ik er wat van proberen te maken. Ik heb proberen te expirementeren met verschillende uitklap menu's bij de leden. 
+Na het schetsen ben ik begonnen dit uit te werken in Figma. Hier hebben we live in een shared file gewerkt met components en visuele elementen uit de brandbook. Ik heb vier verschillende schetsen gemaakt van de detail page om te presenteren aan de opdrachtgever. Ik vond het best lastig omdat ik de huisstijl en grid van de website niet heel mooi vind. Maar toch heb ik er wat van proberen te maken. Ik heb proberen te expirementeren met verschillende uitklap menu's bij de leden.
+
 ![figma-1](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/schets-figma.png)
 
 ## Design review 3/5/2023 (Vasilis)
@@ -164,6 +165,7 @@ Na het schetsen ben ik begonnen dit uit te werken in Figma. Hier hebben we live 
 
 ## Design itheratie
 Uit de meeting met de opdrachtgever kwam dat hij vond dat als we een chat gebruikte hij het ook belangrijk vond om hoogtepunten uit deze chat te hebben zodat mensen niet helemaal moeten scrollen om berichten te kunnen lezen. Hier waren we het mee eens en dit heb ik direct na de meeting toegepast op het design.
+
 ![figma-1](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/schets-figma-2.png)
 
 # Code 
