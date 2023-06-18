@@ -87,7 +87,7 @@ Tops voor het document:
 - Prima document structuur. "
   
   ### Michel
-  Dank jullie wel.
+  "Dank jullie wel.
 
 Hier wat feedback:
 - Met betrekking tot paragraaf 2: Dit noemde ik maar als voorbeeld. Nu is het wel erg prominent.
@@ -108,17 +108,36 @@ Beter:
 "het doel is dat iedereen met een goed idee dit kan delen, dat mensen op elkaars ideeën kunnen reageren, dat de goede ideeën gerealiseerd kunnen worden."
 Ik zeg dit omdat de gemeente Amsterdam niet perse de partij is die met alle goede ideeën aan de slag moet gaan.
 
-Verder is het een mooie samenvatting.
+Verder is het een mooie samenvatting."
   
   ## Debriefing (itheratie)
   Na alles feedback toegepast te hebben hebben we de eind debriefing kunnen afronden. Deze is te vinden in de volgende link: https://github.com/RainbowJM/strandeiland/wiki/Debriefing
   
 # Brainstorm
+Na de briefing begonnen we met brainstormen. Hiervoor hebben we miro gebruikt omdat we hier gezamelijk in kunnen werken. Dit ging erg goed.
+
 ## Moscow Methode
+![Moscow](https://github.com/K3A101/meesterproef-2223/blob/main/images/brainstorming.png)
+We vonden het fijn om een moscow methode toe te passen zodat we een overzicht hadden met de prioriteiten die uit de brainstorm kwamen. Zo konden we ons eerst focussen op de must haves en daarna op de should haves etc. Dit hielp enorm met onze planning en takenverdeling.
+
 ## Requirement list
-## Schetsen Detailpagina
+- Er is een overzichtpagina waar gebruiker een overzicht van alle wensen kan zien.
+- Gebruikers kan filteren op basis van populariteit, recentheid en thema's.
+- Gebruikers moeten zelf een voorstel kunnen aanmaken met behulp van een wens aanmaak formulier.
+- Localstorage toepassen op het formulier
+- Een real time chat waar gebruikers berichten kunnen sturen 
 
 # Visuele analyse
+Vanuit Michel hebben we een brandbook gekregen die de gemeente van Amsterdam heeft ontworpen voor de website van strandeiland. 
+Verder heb ik gewerkt aan de visuele analyse van de brand boek die we hadden gekregen van de opdrachtever. De reden waarom ik een visuel analyse heb gemaakt is omdat wij als groep een beeld kan krijgen welke beeldelementen moet we gebruiken op het protptype. Op de visuele analyse staan de volgende onderdelen:
+
+Typografie
+Kleurpalette en kleurcodes
+site componenten
+navigatiemenu
+call to action button
+
+## Schetsen Detailpagina
 ## Low fidality design 
 ## High fidality itheratie
 
