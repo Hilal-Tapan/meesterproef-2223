@@ -60,9 +60,7 @@ Verder hebben we een mindmap gemaakt met alle informatie die we hadden over het 
   
   ### Joost
 "Vragen naar aanleiding van de debriefing:
-
 (top of mind, misschien weten jullie dit al of is het niet belangrijk, misschien wel!)
-
 - Hebben we toegang tot het platform CrossMarX? Is dat nodig? 
 - Is er content/data beschikbaar?
 - Hoe gaan IJburg bewoners op het platform? Voornamelijk Mobiel? Responsive?
@@ -81,22 +79,41 @@ Verder hebben we een mindmap gemaakt met alle informatie die we hadden over het 
 - Wat betekent API (vanuit school)? Wie gaat dat doen?
 - Ik zie niet goed wat de relatie is tussen het project wat jullie gaan ontwerpen en maken en de CrossmarX software
 
-<br>Tips voor document: <br>
-
+Tips voor document: 
 - In de titel van het document (ook) de opdracht naam zetten
 - Datum van het document opnemen
 - Contactgegevens van het minor team toevoegen
 
-<br>Tops voor het document:<br>
-
+Tops voor het document:
 - Ziet er goed uit, veel informatie. 
 - Prima document structuur. "
   
   ### Michel
-  - 
+  Dank jullie wel.
+
+Hier wat feedback:
+- Met betrekking tot paragraaf 2: Dit noemde ik maar als voorbeeld. Nu is het wel erg prominent.
+"Hij merkte dat IJburg uit twee groepen bestond, de rijke en de wat armere en dat de middengroep niet echt aanwezig was. Hij wil graag deze groepen samenbrengen en luisteren naar de wensen van de IJburgers."
+Beter zoiets als:
+"Hij merkte dat de samenwerking tussen gemeente en bewoners op veel punten verbeterd kan worden, en heeft voor zichzelf als opdracht gesteld om met behulp van digitale platforms te laten zien hoe het beter kan."
+
+Verder is CrossmarX is niet de opdrachtgever van deze opdracht. Het participatieteam is de opdrachtgever. Zie ook:
+https://github.com/cmda-minor-web-cases/duurzaam-groen-en-sociaal-strandeiland/blob/main/README.md en https://hallostrandeiland.nl/overons
+
+CrossmarX is het bedrijf dat de techniek levert. Het is prima om CrossmarX te noemen. Alles klopt verder, maar het bedrijf is niet de opdrachtgever.
+
+Zie ook "het bedrijf" in paragraaf 4. Dat moet dan ook het participatieteam worden.
+
+Verder zou ik dit niet zo zeggen:
+"het doel is dat de toekomstige bewoners gehoord worden door de projectleiders van de gemeente Amsterdam en dat hun wensen in overweging genomen worden"
+Beter:
+"het doel is dat iedereen met een goed idee dit kan delen, dat mensen op elkaars ideeën kunnen reageren, dat de goede ideeën gerealiseerd kunnen worden."
+Ik zeg dit omdat de gemeente Amsterdam niet perse de partij is die met alle goede ideeën aan de slag moet gaan.
+
+Verder is het een mooie samenvatting.
   
   ## Debriefing (itheratie)
-  De eind debriefing is te vinden in deze link: https://github.com/RainbowJM/strandeiland/wiki/Debriefing
+  Na alles feedback toegepast te hebben hebben we de eind debriefing kunnen afronden. Deze is te vinden in de volgende link: https://github.com/RainbowJM/strandeiland/wiki/Debriefing
   
 # Brainstorm
 ## Moscow Methode
