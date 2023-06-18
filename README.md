@@ -128,16 +128,10 @@ We vonden het fijn om een moscow methode toe te passen zodat we een overzicht ha
 - Een real time chat waar gebruikers berichten kunnen sturen 
 
 # Visuele analyse
-Vanuit Michel hebben we een brandbook gekregen die de gemeente van Amsterdam heeft ontworpen voor de website van strandeiland. 
-Verder heb ik gewerkt aan de visuele analyse van de brand boek die we hadden gekregen van de opdrachtever. De reden waarom ik een visuel analyse heb gemaakt is omdat wij als groep een beeld kan krijgen welke beeldelementen moet we gebruiken op het protptype. Op de visuele analyse staan de volgende onderdelen:
-
-Typografie
-Kleurpalette en kleurcodes
-site componenten
-navigatiemenu
-call to action button
+Vanuit Michel hebben we een brandbook gekregen die de gemeente van Amsterdam heeft ontworpen voor de website van strandeiland. Keisha heeft dit brandbook vertaald naar visuele elementen waar wij vervolgens mee hebben geschetst.
 
 ## Schetsen Detailpagina
+
 ## Low fidality design 
 ## High fidality itheratie
 
