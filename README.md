@@ -47,6 +47,10 @@ Hieronder vind je de vragen die we hebben gesteld aan Michel Vogler:
 14. Wanneer er meerdere voorstellen zijn geüpload, wilt u deze dan op een pagina zien waar u kunt filteren of onder verschillende tabbladen wilt met de verschillende thema’s?
 15. In hoeverre verschilt dit project met hallostrandeiland.nl, aangezien je daar ook berichten hebt waar je een reactie bij kan plaatsen?
 Hebben jullie het logo en beeldmateriaal, zodat wij dit kunnen gebruiken?
+
+### Mindmap
+Verder hebben we een mindmap gemaakt met alle informatie die we hadden over het project.
+!(mindmap)[https://github.com/K3A101/meesterproef-2223/blob/main/images/Meesterproef-3.jpg]
   
   ## Briefing (Eerste versie)
   Na de meeting met Michel hebben we onze briefing compleet gemaakt en opgestuurd naar Koop en Michel om hier uiteindelijk een debriefing van te kunnen maken.
