@@ -140,18 +140,58 @@ Na het opstarten hebben we de taken verdeeld over de groepsleden. Ik heb als taa
 ![chat schets](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/eerste-schets.jpg](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/chat-schets.jpg )
 
 ## Figma design
+Na het schetsen ben ik begonnen dit uit te werken in Figma. Hier hebben we live in een shared file gewerkt met components en visuele elementen uit de brandbook. Ik heb vier verschillende schetsen gemaakt van de detail page om te presenteren aan de opdrachtgever. Ik vond het best lastig omdat ik de huisstijl en grid van de website niet heel mooi vind. Maar toch heb ik er wat van proberen te maken. Ik heb proberen te expirementeren met verschillende uitklap menu's bij de leden. 
+![figma-1](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/schets-figma.png)
 
+## Design review 3/5/2023 (Vasilis)
+- Meer denken aan interactie
+- Er mag afgeweken worden van de huisstijl
+- Elk thema en kleur geven en dit toepassen op de detailpage bijvoorbeeld.
+- Animatie toepassen bij de slogan
+
+## Feedback Michel 2/5/2023
+- We kunnen het thema bepalen met sustainability development goals of Donut economics
+- Andere woorden voor trekkers en delers kunnen zijn; ambassadeur, steunen
+- Overzicht van de mensen die de voorstel delen
+- Kan wel van de huisstijl afwjken, moet wel strandeland gevoel uiten
+- Kan je zien wie online is in de chat
+- beetje ingewikkeld over chat, het kan misschien te veel worden, hij wilt echt de belangrijke berichten terug zien.
+- meerdere thema's kunnen selecteren in het formulier
+- hij wilt de chat zien en ook berichten zien (belangrijke berichten)
+- aparte pagina maken waar je de chat apart op een pagina zet
+- thema's moeten geod bekeken worden, strandeiland bestaat nog niet, dus speeltuin etc gaat niet handig zijn
+- alle dingen die fout gaan op dit moment, die kun je vooraf voorkomen, zulke wensen wilt hij zien
 
 ## Design itheratie
+Uit de meeting met de opdrachtgever kwam dat hij vond dat als we een chat gebruikte hij het ook belangrijk vond om hoogtepunten uit deze chat te hebben zodat mensen niet helemaal moeten scrollen om berichten te kunnen lezen. Hier waren we het mee eens en dit heb ik direct na de meeting toegepast op het design.
+![figma-1](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/schets-figma-2.png)
 
 # Code 
 ## Hoe ging dit?
+We hebben geprobeerd om in week 1 ookal de code van het design uit te schrijven. Echter is dit mij niet helemaal gelukt door tijdsnood. Ik heb alleen een klein beginnetje kunnen maken aan de code in html en css. Ook wist ik dat ik feedback zou ontvangen dus ik vond het achteraf ook wel fijner dat ik nog niet alles in code af had, anders was dit dubbel werk geweest voor mij.
+
+## Code review
+Deze week was er geen code review sessie beschikbaar omdat het de eerste week was.
 
 # Conclusie
-## Feedback
-  ### Design review
 ## Reflectie
+Week 1 was intens voor mij. Zoveel informatie en hele hoge werkdruk. Ons groepje begon elke dag om 9:30 tot 16:00 ongeveer en elke dag na school heb ik thuis uren lang doorgewerkt. Ook de weekenden heb ik eraan gewerkt en ik merkte dat ik aan het einde van de week gewoon dood op was. Achteraf gezien was de eerste week het drukte van allemaal omdat het heel erg inkomen is, de opdracht begrijpen en braindstormen, schetsen, uitwerken etc. Zoveel verschillende dingen waarnaar gekeken moet worden. 
+
+De samenwerking ging erg goed. Ik denk dat wij als team een goede match zijn en we proberen zoveel mogelijk te communiceren. We doen wel allemaal waar we goed in zijn dus het is belangrijk elkaar ook wat bij te leren deze meesterproef. Maar dat moet helemaal goed komen.
+
+Dingen die beter konden waren misschien meer tijd besteden aan het netjes houden van de code en rekening houden met dat alle id's en classes in het engels moesten. Dit had ik namelijk niet gedaan en kon dit allemaal verbeteren de week erop. Dit ga ik zeker meenemen naar een volgend project.
+
 ## Hoe verder?
+Volgende week willen we de feedback verder verwerken die we deze vrijdag hebben gehad van Michel. Daarnaast willen we de code af hebben deze week en ook de database af. Taken waar ik volgende week mee aan de slag ga:
+
+- Detailpage coderen
+- Onderzoek naar masonry grid
+- Manier vinden om het grid oneven te maken
+- UI-stack
+- reflectie schrijven
+- 
+
+
 </details>
 
 <details>
