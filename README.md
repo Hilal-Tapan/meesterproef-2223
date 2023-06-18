@@ -50,7 +50,7 @@ Hebben jullie het logo en beeldmateriaal, zodat wij dit kunnen gebruiken?
 
 ### Mindmap
 Verder hebben we een mindmap gemaakt met alle informatie die we hadden over het project.
-!(mindmap)[https://github.com/K3A101/meesterproef-2223/blob/main/images/Meesterproef-3.jpg]
+![mindmap](https://github.com/K3A101/meesterproef-2223/blob/main/images/Meesterproef-3.jpg)
   
   ## Briefing (Eerste versie)
   Na de meeting met Michel hebben we onze briefing compleet gemaakt en opgestuurd naar Koop en Michel om hier uiteindelijk een debriefing van te kunnen maken.
