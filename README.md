@@ -19,7 +19,7 @@ Het bedrijf CrossmarX wil een nieuwe functionaliteit toevoegen voor de hallostra
 <br>
   
 # Opstarten
-  ## Eerste meeting met Michel Vogler
+  ## Voorbereiding op kennismaking met Michel Vogler
   Na de kickoff van de opdracht zijn we begonnen met ons goed te verdiepen in de opdracht. Hierna zijn we de eerste week begonnen met een kennismakings meeting met het bedrijf en de opdrachtgever Michel. Tijdens het voorbereiden hiervan waren Pip en Ine naar onze opdracht overgestapt, dus we zijn van 4 man naar 6 man gegaan op project Strandeiland!
   
   We hebben ons voorbereid op het kennismakings gesprek door:
@@ -59,7 +59,38 @@ Verder hebben we een mindmap gemaakt met alle informatie die we hadden over het 
   Wij kregen feedback op onze briefing van zowel Joost als Michel. Dit was erg waardevol voor ons en zijn er gelijk mee aan de slag gegaan.
   
   ### Joost
-  - 
+"Vragen naar aanleiding van de debriefing:
+
+(top of mind, misschien weten jullie dit al of is het niet belangrijk, misschien wel!)
+
+- Hebben we toegang tot het platform CrossMarX? Is dat nodig? 
+- Is er content/data beschikbaar?
+- Hoe gaan IJburg bewoners op het platform? Voornamelijk Mobiel? Responsive?
+- Hoe krijgt de gemeente en projectleiders de ideeen en voorstellen te zien/horen?
+- Wat is Hallo Strandeiland?
+- oh, duh, dat is de url en de naam van de website
+- Hebben we een huisstijldocument? Of moeten we dat samenstellen aan de hand van de bestaande website
+- Oh .. er is een huisstijlgids .. eerst lezen dan typen Koop
+- Is de huisstijlgids grafisch of zijn er al web elementen en componenten gedefinieerd (living styleguide)?
+- Kunnen we inlog testen? Hebben we test user accounts? Is dat nodig?
+- Hebben we toegang tot de gebruikers? Testdagen plannen? (liefst door de opdrachtgever)
+- Projectleiders ontbreken in de lijst gebruikers?
+- Welke data kunnen/willen de bewoners posten? titel, text, categorie, platje, filmpje? 
+- Moeten andere mensen kunnen reageren? 
+- Ah, ik zie het in de lijst waar het project aan moet voldoen, goed zo!
+- Wat betekent API (vanuit school)? Wie gaat dat doen?
+- Ik zie niet goed wat de relatie is tussen het project wat jullie gaan ontwerpen en maken en de CrossmarX software
+
+<br>Tips voor document: <br>
+
+- In de titel van het document (ook) de opdracht naam zetten
+- Datum van het document opnemen
+- Contactgegevens van het minor team toevoegen
+
+<br>Tops voor het document:<br>
+
+- Ziet er goed uit, veel informatie. 
+- Prima document structuur. "
   
   ### Michel
   - 
