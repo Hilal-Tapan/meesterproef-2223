@@ -131,6 +131,10 @@ We vonden het fijn om een moscow methode toe te passen zodat we een overzicht ha
 Vanuit Michel hebben we een brandbook gekregen die de gemeente van Amsterdam heeft ontworpen voor de website van strandeiland. Keisha heeft dit brandbook vertaald naar visuele elementen waar wij vervolgens mee hebben geschetst.
 
 ## Schetsen Detailpagina
+![eerste schets](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/eerste-schets.jpg)
+![eerste schets](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/eerste-schets2.PNG)
+![chat schets]([https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/eerste-schets.jpg](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/chat-schets.jpg ))
+
 
 ## Low fidality design 
 ## High fidality itheratie
