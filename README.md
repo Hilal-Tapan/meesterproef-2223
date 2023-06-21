@@ -198,7 +198,7 @@ Volgende week willen we de feedback verder verwerken die we deze vrijdag hebben 
 <summary>Week 2</summary>
 <br>
 
-# Intro
+# Intro week 2
 Deze week was onze eerste standup met Koop, onze coach. Dit was erg fijn want Koop was erg betrokken en geïnteresseerd. We bespraken waar we nu staan en wat we allemaal hebben gedaan en wat de volgende stappen zijn. 
 
 Ook zullen we deze week onze eerste code review hebben!
@@ -207,7 +207,7 @@ Ook zullen we deze week onze eerste code review hebben!
 * Detailpage designs omzetten naar code
 * Responsiveness en onderzoek naar masonry grid
 * Code refactoren en schoonmaken
-* Error state en loading state
+* Error state
 * Hamburger menu in de header partial gemaakt
 * Presentatie maken voor klant
 * User pop-up design en chat design
@@ -232,9 +232,18 @@ Om een Masonry Grid te implementeren, zijn er verschillende JavaScript-bibliothe
 Echter kwam ik tot de conclusie dat ik alleen op de detailpage 1 dingetje als oneven grid wou en om een hele masonry Javascript bibliotheek the importeren zou iets too much zijn voor mijn probleempje. Ik ging op zoek naaar andere oplossingen.
 
 ## Andere optie
-Een andere optie was om beide elementen in dezelfde parent te zetten waardoor het een lange grid werd. Ik merkte dat dit best goed ging. Het was even uitvogelen hoe en wat met responsiveness maar na even gezeten te hebben met sanne ben ik eruit gekomen en is het resultaat te zien op de volgende foto.
+Een andere optie was om beide elementen in dezelfde parent te zetten waardoor het een lange grid werd. Ik merkte dat dit best goed ging. Het was even uitvogelen hoe en wat met responsiveness maar na even gezeten te hebben met sanne ben ik eruit gekomen en het resultaat was zoals de volgende foto.
 
 ![figma-1](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/schets-figma-2.png)
+
+## Error state 
+Wanneer iemand geen internet heeft heb ik een error state voor gemaakt. Ik ben eerst begonnen met schetsen.
+-insert foto
+
+Hierna ben ik dingen gaan uitproberen in codepen. Uiteindelijk is dit eruit gekomen.
+- insert foto
+  
+[codepen link](https://codepen.io/hilal-tapan/pen/rNQaemz?editors=1100)
 
 
 # Conclusie
