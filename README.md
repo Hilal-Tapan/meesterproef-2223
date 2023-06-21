@@ -232,7 +232,10 @@ Om een Masonry Grid te implementeren, zijn er verschillende JavaScript-bibliothe
 Echter kwam ik tot de conclusie dat ik alleen op de detailpage 1 dingetje als oneven grid wou en om een hele masonry Javascript bibliotheek the importeren zou iets too much zijn voor mijn probleempje. Ik ging op zoek naaar andere oplossingen.
 
 ## Andere optie
-Een andere optie was om beide elementen in dezelfde parent te zetten waardoor het een lange grid werd. Ik merkte dat dit best goed ging. Het was even uitvogelen hoe en wat met responsiveness maar na even gezeten te hebben met sanne ben ik eruit gekomen!
+Een andere optie was om beide elementen in dezelfde parent te zetten waardoor het een lange grid werd. Ik merkte dat dit best goed ging. Het was even uitvogelen hoe en wat met responsiveness maar na even gezeten te hebben met sanne ben ik eruit gekomen en is het resultaat te zien op de volgende foto.
+
+![figma-1](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/schets-figma-2.png)
+
 
 # Conclusie
 ## Feedback
