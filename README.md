@@ -212,14 +212,43 @@ Ook zullen we deze week onze eerste code review hebben!
 * Presentatie maken voor klant
 * User pop-up design en chat design
 
+## Thema's opstellen
+Om aan de slag te kunnen met de filter en database moesten er thema's opgesteld worden. Dit hebben we samen gedaan en hieronder zijn deze te zien:
 
+![filter](https://github.com/K3A101/meesterproef-2223/blob/main/images/themas.png)
 
-# Code 
-## Hoe ging dit?
+## Masonry onderzoek
+Masonry Grid is een type lay-out dat wordt gebruikt in webdesign om content op een dynamische en georganiseerde manier weer te geven. Het is gebaseerd op het principe van een metselwerkmuur, waarbij stenen op een willekeurige manier worden gestapeld, maar toch een evenwichtige en aantrekkelijke uitstraling behouden.
+
+In een Masonry Grid worden de items (zoals afbeeldingen of tekstblokken) op een pagina geplaatst op basis van beschikbare ruimte en zonder dat er veel witruimte ontstaat. In tegenstelling tot een traditioneel raster, waarbij alle items op een rechthoekig rooster worden geplaatst, past een Masonry Grid zich aan aan de hoogtes van de items.
+
+Hier is een eenvoudige uitleg van hoe een Masonry Grid werkt:
+* Itemplaatsing: Elk item wordt op de pagina geplaatst op basis van de beschikbare ruimte en de hoogte van andere items. Het doel is om de items zo goed mogelijk in te passen, waarbij de hoogteverschillen tussen de items zo klein mogelijk worden gehouden.
+* Optimalisatie: Nadat een item is geplaatst, wordt gekeken naar het beste mogelijke positie voor het volgende item. Dit wordt gedaan om de algehele visuele balans van de lay-out te behouden. Hierbij wordt rekening gehouden met de beschikbare ruimte en de hoogte van de omliggende items.
+* Responsiviteit: Een Masonry Grid is meestal responsief, wat betekent dat het zich aanpast aan verschillende schermformaten. Het herordent de items automatisch wanneer het scherm smaller of breder wordt, om ervoor te zorgen dat de lay-out goed blijft functioneren op verschillende apparaten, zoals desktops, tablets en mobiele telefoons.
+
+Om een Masonry Grid te implementeren, zijn er verschillende JavaScript-bibliotheken beschikbaar, zoals Masonry.js en Isotope.js, die de complexiteit van het plaatsen van items en het optimaliseren van de lay-out vereenvoudigen.
+
+Echter kwam ik tot de conclusie dat ik alleen op de detailpage 1 dingetje als oneven grid wou en om een hele masonry Javascript bibliotheek the importeren zou iets too much zijn voor mijn probleempje. Ik ging op zoek naaar andere oplossingen.
+
+## Andere optie
+Een andere optie was om beide elementen in dezelfde parent te zetten waardoor het een lange grid werd. Ik merkte dat dit best goed ging. Het was even uitvogelen hoe en wat met responsiveness maar na even gezeten te hebben met sanne ben ik eruit gekomen!
 
 # Conclusie
 ## Feedback
   ### Design review
+  ### Code review
+  sessie robert
+- input img hoe ga je tegen dat iemand de html aanpast en een ander bestand upload
+- server validatie (max zoveel tekens bijv)
+- position absolute op de viewport
+
+
+ieder chat bericht in supabase opslaan
+Elke like met id (liked by)
+array van user id’s
+de eerste drie entries pakken met meeste likes
+
 ## Reflectie
 ## Hoe verder?
 </details>
