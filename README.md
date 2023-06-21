@@ -240,11 +240,13 @@ Een andere optie was om beide elementen in dezelfde parent te zetten waardoor he
 Wanneer iemand geen internet heeft heb ik een error state voor gemaakt. Ik ben eerst begonnen met schetsen.
 -insert foto
 
-Hierna ben ik dingen gaan uitproberen in codepen. Uiteindelijk is dit eruit gekomen.
-- insert foto
-  
+Hierna ben ik dingen gaan uitproberen in codepen. Uiteindelijk is dit eruit gekomen. Het is een animatie en je kan deze bekijken op de codepen link. Het water beweegt in de letters als golven. Dit vonden we helemaal passen bij strandeiland!
+
+![codepen](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/codepen.png)
+
 [codepen link](https://codepen.io/hilal-tapan/pen/rNQaemz?editors=1100)
 
+## Hamburger menu en user pop-up design
 
 # Conclusie
 ## Feedback
@@ -254,8 +256,7 @@ Hierna ben ik dingen gaan uitproberen in codepen. Uiteindelijk is dit eruit geko
 - input img hoe ga je tegen dat iemand de html aanpast en een ander bestand upload
 - server validatie (max zoveel tekens bijv)
 - position absolute op de viewport
-
-
+- 
 ieder chat bericht in supabase opslaan
 Elke like met id (liked by)
 array van user id’s
@@ -263,4 +264,5 @@ de eerste drie entries pakken met meeste likes
 
 ## Reflectie
 ## Hoe verder?
+
 </details>
