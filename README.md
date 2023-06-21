@@ -190,16 +190,30 @@ Volgende week willen we de feedback verder verwerken die we deze vrijdag hebben 
 - Onderzoek naar masonry grid
 - Manier vinden om het grid oneven te maken
 - UI-stack
-- reflectie schrijven
-- 
-
+- Retrospective schrijven
 
 </details>
 
 <details>
 <summary>Week 2</summary>
 <br>
-  
+
+# Intro
+Deze week was onze eerste standup met Koop, onze coach. Dit was erg fijn want Koop was erg betrokken en geïnteresseerd. We bespraken waar we nu staan en wat we allemaal hebben gedaan en wat de volgende stappen zijn. 
+
+Ook zullen we deze week onze eerste code review hebben!
+
+## Wat heb ik gedaan deze week
+* Detailpage designs omzetten naar code
+* Responsiveness en onderzoek naar masonry grid
+* Code refactoren en schoonmaken
+* Error state en loading state
+* Hamburger menu in de header partial gemaakt
+* Presentatie maken voor klant
+* User pop-up design en chat design
+
+
+
 # Code 
 ## Hoe ging dit?
 
