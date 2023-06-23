@@ -19,10 +19,10 @@ Het bedrijf CrossmarX wil een nieuwe functionaliteit toevoegen voor de hallostra
 <br>
   
 # Opstarten
-  ## Voorbereiding op kennismaking met Michel Vogler
-  Na de kickoff van de opdracht zijn we begonnen met ons goed te verdiepen in de opdracht. Hierna zijn we de eerste week begonnen met een kennismakings meeting met het bedrijf en de opdrachtgever Michel. Tijdens het voorbereiden hiervan waren Pip en Ine naar onze opdracht overgestapt, dus we zijn van 4 man naar 6 man gegaan op project Strandeiland!
+## Voorbereiding op kennismaking met Michel Vogler
+Na de kickoff van de opdracht zijn we begonnen met ons goed te verdiepen in de opdracht. Hierna zijn we de eerste week begonnen met een kennismakings meeting met het bedrijf en de opdrachtgever Michel. Tijdens het voorbereiden hiervan waren Pip en Ine naar onze opdracht overgestapt, dus we zijn van 4 man naar 6 man gegaan op project Strandeiland!
   
-  We hebben ons voorbereid op het kennismakings gesprek door:
+We hebben ons voorbereid op het kennismakings gesprek door:
   - Ons in te lezen in de opdracht
   - Michel gemaild om een afspraak te maken
   - Vragen die we hebben op te schrijven zodat we deze niet vergeten
@@ -52,11 +52,11 @@ Hebben jullie het logo en beeldmateriaal, zodat wij dit kunnen gebruiken?
 Verder hebben we een mindmap gemaakt met alle informatie die we hadden over het project.
 ![mindmap](https://github.com/K3A101/meesterproef-2223/blob/main/images/Meesterproef-3.jpg)
   
-  ### Feedback Briefing (Eerste versie)
-  Na de meeting met Michel hebben we onze briefing compleet gemaakt en opgestuurd naar Koop en Michel om hier uiteindelijk een debriefing van te kunnen maken.
-  Hier kregen we lekker uitgebreide feedback op van beide wat heel waardevol was voor ons.
+### Feedback Briefing (Eerste versie)
+Na de meeting met Michel hebben we onze briefing compleet gemaakt en opgestuurd naar Koop en Michel om hier uiteindelijk een debriefing van te kunnen maken.
+Hier kregen we lekker uitgebreide feedback op van beide wat heel waardevol was voor ons.
   
-  ### Joost
+### Koop
 "Vragen naar aanleiding van de debriefing:
 (top of mind, misschien weten jullie dit al of is het niet belangrijk, misschien wel!)
 - Hebben we toegang tot het platform CrossMarX? Is dat nodig? 
@@ -85,9 +85,9 @@ Tips voor document:
 Tops voor het document:
 - Ziet er goed uit, veel informatie. 
 - Prima document structuur. "
-  
-  ### Michel
-  "Dank jullie wel.
+
+### Michel
+"Dank jullie wel.
 
 Hier wat feedback:
 - Met betrekking tot paragraaf 2: Dit noemde ik maar als voorbeeld. Nu is het wel erg prominent.
@@ -110,8 +110,8 @@ Ik zeg dit omdat de gemeente Amsterdam niet perse de partij is die met alle goed
 
 Verder is het een mooie samenvatting."
   
-  ## Debriefing (itheratie)
-  Na alles feedback toegepast te hebben hebben we de eind debriefing kunnen afronden. Deze is te vinden in de volgende link: https://github.com/RainbowJM/strandeiland/wiki/Debriefing
+## Debriefing (itheratie)
+Na alles feedback toegepast te hebben hebben we de eind debriefing kunnen afronden. Deze is te vinden in de volgende link: https://github.com/RainbowJM/strandeiland/wiki/Debriefing
   
 # Brainstorm
 Na de briefing begonnen we met brainstormen. Hiervoor hebben we miro gebruikt omdat we hier gezamelijk in kunnen werken. Dit ging erg goed.
@@ -272,13 +272,13 @@ Ook hadden we een manier nodig om op de detailpage informatie te zien over de de
 We hadden een klein probleempje met alle meest rechter users. Want dit pop up ging naar rechts waardoor je het niet meer zag. Hiervoor heb ik alle rechter leden een andere class gegeven en deze hebben een andere styling, namelijk naar links zoals je ziet op de afbeelding.
 
 ## Feedback
-  ### Design review
+### Design review
 - heb ik deze gehad?
 
-  ### Code review - 07/06
-  Ik heb een code review sessie met Robert gehad op deze dag. Het was niet echt een chille sessie om eerlijk te zijn. Tijdens het presenteren werd er niet echt geluisterd had ik het idee, mensen praatte door me heen en de aandacht was er gewoon niet. Hierdoor heb ik helaas niet echt nuttige feedback ontvangen. Robert vroeg of we hadden gedacht aan img validation dat je ervoor zorgt dat er geen andere bestanden worden geupload. Dit hebben we na de sessie wel toegepast.
+### Code review - 07/06
+Ik heb een code review sessie met Robert gehad op deze dag. Het was niet echt een chille sessie om eerlijk te zijn. Tijdens het presenteren werd er niet echt geluisterd had ik het idee, mensen praatte door me heen en de aandacht was er gewoon niet. Hierdoor heb ik helaas niet echt nuttige feedback ontvangen. Robert vroeg of we hadden gedacht aan img validation dat je ervoor zorgt dat er geen andere bestanden worden geupload. Dit hebben we na de sessie wel toegepast.
 
-  Ook vroeg ik zelf hoe we met socket.io de messages met de meeste likes kunnen display. Hij gaf aan dat we dan:
+Ook vroeg ik zelf hoe we met socket.io de messages met de meeste likes kunnen display. Hij gaf aan dat we dan:
 - ieder chat bericht in supabase opslaan
 - Elke like met id (liked by)
 - array van user id’s
