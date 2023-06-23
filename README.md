@@ -51,12 +51,15 @@ Hebben jullie het logo en beeldmateriaal, zodat wij dit kunnen gebruiken?
 ### Mindmap
 Verder hebben we een mindmap gemaakt met alle informatie die we hadden over het project.
 ![mindmap](https://github.com/K3A101/meesterproef-2223/blob/main/images/Meesterproef-3.jpg)
-  
+
+*** 
+
+## Feedback
 ### Feedback Briefing (Eerste versie)
 Na de meeting met Michel hebben we onze briefing compleet gemaakt en opgestuurd naar Koop en Michel om hier uiteindelijk een debriefing van te kunnen maken.
 Hier kregen we lekker uitgebreide feedback op van beide wat heel waardevol was voor ons.
   
-### Koop
+### Feedback Koop
 "Vragen naar aanleiding van de debriefing:
 (top of mind, misschien weten jullie dit al of is het niet belangrijk, misschien wel!)
 - Hebben we toegang tot het platform CrossMarX? Is dat nodig? 
@@ -86,9 +89,8 @@ Tops voor het document:
 - Ziet er goed uit, veel informatie. 
 - Prima document structuur. "
 
-### Michel
+### Feedback Michel
 "Dank jullie wel.
-
 Hier wat feedback:
 - Met betrekking tot paragraaf 2: Dit noemde ik maar als voorbeeld. Nu is het wel erg prominent.
 "Hij merkte dat IJburg uit twee groepen bestond, de rijke en de wat armere en dat de middengroep niet echt aanwezig was. Hij wil graag deze groepen samenbrengen en luisteren naar de wensen van de IJburgers."
@@ -97,9 +99,7 @@ Beter zoiets als:
 
 Verder is CrossmarX is niet de opdrachtgever van deze opdracht. Het participatieteam is de opdrachtgever. Zie ook:
 https://github.com/cmda-minor-web-cases/duurzaam-groen-en-sociaal-strandeiland/blob/main/README.md en https://hallostrandeiland.nl/overons
-
 CrossmarX is het bedrijf dat de techniek levert. Het is prima om CrossmarX te noemen. Alles klopt verder, maar het bedrijf is niet de opdrachtgever.
-
 Zie ook "het bedrijf" in paragraaf 4. Dat moet dan ook het participatieteam worden.
 
 Verder zou ik dit niet zo zeggen:
@@ -109,10 +109,12 @@ Beter:
 Ik zeg dit omdat de gemeente Amsterdam niet perse de partij is die met alle goede ideeën aan de slag moet gaan.
 
 Verder is het een mooie samenvatting."
-  
+
 ## Debriefing (itheratie)
 Na alles feedback toegepast te hebben hebben we de eind debriefing kunnen afronden. Deze is te vinden in de volgende link: https://github.com/RainbowJM/strandeiland/wiki/Debriefing
-  
+
+***
+
 # Brainstorm
 Na de briefing begonnen we met brainstormen. Hiervoor hebben we miro gebruikt omdat we hier gezamelijk in kunnen werken. Dit ging erg goed.
 
@@ -126,6 +128,8 @@ We vonden het fijn om een moscow methode toe te passen zodat we een overzicht ha
 - Gebruikers moeten zelf een voorstel kunnen aanmaken met behulp van een wens aanmaak formulier.
 - Localstorage toepassen op het formulier
 - Een real time chat waar gebruikers berichten kunnen sturen 
+
+***
 
 # Visuele analyse
 Vanuit Michel hebben we een brandbook gekregen die de gemeente van Amsterdam heeft ontworpen voor de website van strandeiland. Keisha heeft dit brandbook vertaald naar visuele elementen waar wij vervolgens mee hebben geschetst.
@@ -143,12 +147,6 @@ Na het opstarten hebben we de taken verdeeld over de groepsleden. Ik heb als taa
 Na het schetsen ben ik begonnen dit uit te werken in Figma. Hier hebben we live in een shared file gewerkt met components en visuele elementen uit de brandbook. Ik heb vier verschillende schetsen gemaakt van de detail page om te presenteren aan de opdrachtgever. Ik vond het best lastig omdat ik de huisstijl en grid van de website niet heel mooi vind. Maar toch heb ik er wat van proberen te maken. Ik heb proberen te expirementeren met verschillende uitklap menu's bij de leden.
 
 ![figma-1](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/schets-figma.png)
-
-## Design review 3/5/2023 (Vasilis)
-- Meer denken aan interactie
-- Er mag afgeweken worden van de huisstijl
-- Elk thema en kleur geven en dit toepassen op de detailpage bijvoorbeeld.
-- Animatie toepassen bij de slogan
 
 ## Feedback Michel 2/5/2023
 - We kunnen het thema bepalen met sustainability development goals of Donut economics
@@ -168,12 +166,22 @@ Uit de meeting met de opdrachtgever kwam dat hij vond dat als we een chat gebrui
 
 ![figma-1](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/schets-figma-2.png)
 
-# Code 
-## Hoe ging dit?
+## Code
 We hebben geprobeerd om in week 1 ookal de code van het design uit te schrijven. Echter is dit mij niet helemaal gelukt door tijdsnood. Ik heb alleen een klein beginnetje kunnen maken aan de code in html en css. Ook wist ik dat ik feedback zou ontvangen dus ik vond het achteraf ook wel fijner dat ik nog niet alles in code af had, anders was dit dubbel werk geweest voor mij.
 
+***
+
+# Feedback
 ## Code review
 Deze week was er geen code review sessie beschikbaar omdat het de eerste week was.
+
+## Design review 3/5/2023 (Vasilis)
+- Meer denken aan interactie
+- Er mag afgeweken worden van de huisstijl
+- Elk thema en kleur geven en dit toepassen op de detailpage bijvoorbeeld.
+- Animatie toepassen bij de slogan
+
+***
 
 # Conclusie
 ## Reflectie
@@ -271,11 +279,13 @@ Ook hadden we een manier nodig om op de detailpage informatie te zien over de de
 
 We hadden een klein probleempje met alle meest rechter users. Want dit pop up ging naar rechts waardoor je het niet meer zag. Hiervoor heb ik alle rechter leden een andere class gegeven en deze hebben een andere styling, namelijk naar links zoals je ziet op de afbeelding.
 
-## Feedback
-### Design review
+***
+
+# Feedback
+## Design review
 - heb ik deze gehad?
 
-### Code review - 07/06
+## Code review - 07/06
 Ik heb een code review sessie met Robert gehad op deze dag. Het was niet echt een chille sessie om eerlijk te zijn. Tijdens het presenteren werd er niet echt geluisterd had ik het idee, mensen praatte door me heen en de aandacht was er gewoon niet. Hierdoor heb ik helaas niet echt nuttige feedback ontvangen. Robert vroeg of we hadden gedacht aan img validation dat je ervoor zorgt dat er geen andere bestanden worden geupload. Dit hebben we na de sessie wel toegepast.
 
 Ook vroeg ik zelf hoe we met socket.io de messages met de meeste likes kunnen display. Hij gaf aan dat we dan:
@@ -294,10 +304,20 @@ Ook vroeg ik zelf hoe we met socket.io de messages met de meeste likes kunnen di
 - Trekkers menu anders doen en niet aan de zijkant
 - De wens aanmaken buton moet een activerend call to action hebben
 
+***
+
+# Conclusie
 ## Reflectie
 De week ging best goed. We hebben grote sprongen gemaakt, alles was deze week naar code omgezet. De database was af in deze week en we hebben weer hard gewerkt. De samenwerking gaat nog steeds goed. Iedereen heeft haar eigen taak en we weten hoe we kunnen bijdragen aan het project. De sessies met de opdrachtgever zijn soms wat demotiverend omdat het veel feedback is en weinig het idee dat die impressed is. Ik merkte dat ons groepje soms na deze sessies wat gedemotiveerd was en ik ook. We herpakte ons snel weer en het is altijd fijn om dit even na te bespreken die maandag met Koop. Koop is een hele fijne en betrokken coach hebben we gemerkt die ons echt motiveerd en richtlijnen bied.
 
 ## Hoe verder?
 Volgende maandag hebben we een sessie met Koop en we gaan de feedback toepassen die we hebben gehad. Dus weer designen designen designen.. Daarna toepassen in code. Ook even kijken welke features nog wat aandacht moeten.
+
+</details>
+
+
+<details>
+<summary>Week 3</summary>
+<br>
 
 </details>
