@@ -320,7 +320,7 @@ Volgende maandag hebben we een sessie met Koop en we gaan de feedback toepassen 
 <summary>Week 3</summary>
 <br>
 
-# Intro week 2
+# Intro week 3
 
 ## Wat heb ik gedaan deze week
 
