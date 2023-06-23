@@ -271,8 +271,6 @@ Ook hadden we een manier nodig om op de detailpage informatie te zien over de de
 
 We hadden een klein probleempje met alle meest rechter users. Want dit pop up ging naar rechts waardoor je het niet meer zag. Hiervoor heb ik alle rechter leden een andere class gegeven en deze hebben een andere styling, namelijk naar links zoals je ziet op de afbeelding.
 
-
-# Conclusie
 ## Feedback
   ### Design review
 - heb ik deze gehad?
