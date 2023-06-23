@@ -246,23 +246,60 @@ Hierna ben ik dingen gaan uitproberen in codepen. Uiteindelijk is dit eruit geko
 
 [codepen link](https://codepen.io/hilal-tapan/pen/rNQaemz?editors=1100)
 
-## Hamburger menu en user pop-up design
+## Hamburger menu
+Voor small screen hadden we een hamburger menu nodig. Ik nam deze taak op me omdat ik graag beter wil worden in client side javascript, ik ben hier niet zo goed in namelijk. Het ging eigenlijk best wel goed.
+
+![hamburgir](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/hamburger.png )
+
+Dit is de code van de client side javascript:
+```js
+import { theNav, theMenuButton, theImage } from "./variables.js";
+function toggleMenu() {
+    theNav.classList.toggle("open");
+    theMenuButton.classList.toggle("menuOpen");
+    console.log("open");
+    theImage.classList.toggle("menuOpen");
+}
+
+export { toggleMenu }
+```
+
+## User pop-up
+Ook hadden we een manier nodig om op de detailpage informatie te zien over de delers. Omdat het er zoveel zijn wouden we niet bij iedereen de naam displayen omdat de pagina dan onwijs lang zou worden. Een scroll zou op mobile heel rot zijn als je de footer wou bereiken moetje dan eerst door alle leden scrollen. Hierdoor begon ik met een hover state te maken die de naam zou displayen, het beroep en een linkje naar de pagina van de user. Echter werkt hover niet op mobiel. Dus ik koos ervoor het met click te doen.
+
+![pop-up](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/pop-up-detail.png )
+
+We hadden een klein probleempje met alle meest rechter users. Want dit pop up ging naar rechts waardoor je het niet meer zag. Hiervoor heb ik alle rechter leden een andere class gegeven en deze hebben een andere styling, namelijk naar links zoals je ziet op de afbeelding.
+
 
 # Conclusie
 ## Feedback
   ### Design review
-  ### Code review
-  sessie robert
-- input img hoe ga je tegen dat iemand de html aanpast en een ander bestand upload
-- server validatie (max zoveel tekens bijv)
-- position absolute op de viewport
-- 
-ieder chat bericht in supabase opslaan
-Elke like met id (liked by)
-array van user id’s
-de eerste drie entries pakken met meeste likes
+- heb ik deze gehad?
+
+  ### Code review - 07/06
+  Ik heb een code review sessie met Robert gehad op deze dag. Het was niet echt een chille sessie om eerlijk te zijn. Tijdens het presenteren werd er niet echt geluisterd had ik het idee, mensen praatte door me heen en de aandacht was er gewoon niet. Hierdoor heb ik helaas niet echt nuttige feedback ontvangen. Robert vroeg of we hadden gedacht aan img validation dat je ervoor zorgt dat er geen andere bestanden worden geupload. Dit hebben we na de sessie wel toegepast.
+
+  Ook vroeg ik zelf hoe we met socket.io de messages met de meeste likes kunnen display. Hij gaf aan dat we dan:
+- ieder chat bericht in supabase opslaan
+- Elke like met id (liked by)
+- array van user id’s
+- de eerste drie entries pakken met meeste likes
+  
+### Opdrachtgever feedback - 09/06
+- Duidelijker maken dat de filter kun je uitklappen.
+- Treftwoord opzoeken.
+- Nieuwe design voor detailpagina
+- Nieuwe design voor de chat- meer functonaliteiten en de naam veranderen
+- Verschillende manieren om afbeeling in wens aan formulier te uploaden
+- Voorstel veranderen in wens
+- Trekkers menu anders doen en niet aan de zijkant
+- De wens aanmaken buton moet een activerend call to action hebben
 
 ## Reflectie
+De week ging best goed. We hebben grote sprongen gemaakt, alles was deze week naar code omgezet. De database was af in deze week en we hebben weer hard gewerkt. De samenwerking gaat nog steeds goed. Iedereen heeft haar eigen taak en we weten hoe we kunnen bijdragen aan het project. De sessies met de opdrachtgever zijn soms wat demotiverend omdat het veel feedback is en weinig het idee dat die impressed is. Ik merkte dat ons groepje soms na deze sessies wat gedemotiveerd was en ik ook. We herpakte ons snel weer en het is altijd fijn om dit even na te bespreken die maandag met Koop. Koop is een hele fijne en betrokken coach hebben we gemerkt die ons echt motiveerd en richtlijnen bied.
+
 ## Hoe verder?
+Volgende maandag hebben we een sessie met Koop en we gaan de feedback toepassen die we hebben gehad. Dus weer designen designen designen.. Daarna toepassen in code. Ook even kijken welke features nog wat aandacht moeten.
 
 </details>
