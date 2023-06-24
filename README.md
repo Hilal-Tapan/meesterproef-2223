@@ -334,12 +334,6 @@ Deze week was een belangrijk moment voor onze designs en voortgang. We hebben he
 
 ***
 
-Verder gingen we als groep aan de slag met herontwerpen van de detailpagina van een wens. We hebben een aantal iteraties gemaakt op Figma en uiteindelijk hebben we een design gekozen. Hilal ging het pagina uitwerken in code We hebben de hoogtepunten van een reacties verwijdert en in plaats daarvan de trekkers, helpers en delers wat meer ruimtes gegeven. Omdat de delers misschien te groot kan zijn hebben we besloten om de om alleen de profielfoto te laten zien, dan wordt het makkelijker om meer delers naast elkaar te laten zien. Als je de naam van de deler wilt zien kan je op de profielfoto klikken. Dan komt een kleine popup met de naam van de deler.
-
-We hebben hier ook een beetje gespeeld met de kleur. Aan de rechterkant hebben we een achtergrondkleur toegevoegd om een beetje wat kleurrijk te maken tussean al de witte vlakken.
-
-Als laaste kreeg de Chat een herontwerp, want de opdrachtgever zag geen toegevoegde waarde in een chat dus we hebben de interface verandert die meer lijkt reactie functionaliteit. In het volgende onderdeel ga ik meer vertellen over de chat.
-
 ### Nieuwe designs detailpagina
 We gingen als groep aan de slag met het herontwerpen van de detailpagina van een wens. We hebben hoogtepunten van de chatberichten verwijderd omdat uit onze sessie met Michel kwam dat dit eigenlijk tot niet nodig bleek te zijn. In plaats daarvan hebben we de trekkers, helpers en delers wat meer ruimtes gegeven. Omdat de delers teveel zijn laten we alleen de profielfoto zien en dan met een hover of click waarmee je meer informatie kunt zien als een soort pop-up.
 
