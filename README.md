@@ -211,7 +211,7 @@ Deze week was onze eerste standup met Koop, onze coach. Dit was erg fijn want Ko
 
 Ook zullen we deze week onze eerste code review hebben!
 
-## Wat heb ik gedaan deze week
+## Wat heb ik gedaan deze week?
 * Detailpage designs omzetten naar code
 * Responsiveness en onderzoek naar masonry grid
 * Code refactoren en schoonmaken
@@ -220,12 +220,12 @@ Ook zullen we deze week onze eerste code review hebben!
 * Presentatie maken voor klant
 * User pop-up design en chat design
 
-## Thema's opstellen
+### Thema's opstellen
 Om aan de slag te kunnen met de filter en database moesten er thema's opgesteld worden. Dit hebben we samen gedaan en hieronder zijn deze te zien:
 
 ![filter](https://github.com/K3A101/meesterproef-2223/blob/main/images/themas.png)
 
-## Masonry onderzoek
+### Masonry onderzoek
 Masonry Grid is een type lay-out dat wordt gebruikt in webdesign om content op een dynamische en georganiseerde manier weer te geven. Het is gebaseerd op het principe van een metselwerkmuur, waarbij stenen op een willekeurige manier worden gestapeld, maar toch een evenwichtige en aantrekkelijke uitstraling behouden.
 
 In een Masonry Grid worden de items (zoals afbeeldingen of tekstblokken) op een pagina geplaatst op basis van beschikbare ruimte en zonder dat er veel witruimte ontstaat. In tegenstelling tot een traditioneel raster, waarbij alle items op een rechthoekig rooster worden geplaatst, past een Masonry Grid zich aan aan de hoogtes van de items.
@@ -239,12 +239,12 @@ Om een Masonry Grid te implementeren, zijn er verschillende JavaScript-bibliothe
 
 Echter kwam ik tot de conclusie dat ik alleen op de detailpage 1 dingetje als oneven grid wou en om een hele masonry Javascript bibliotheek the importeren zou iets too much zijn voor mijn probleempje. Ik ging op zoek naaar andere oplossingen.
 
-## Andere optie
+### Andere optie
 Een andere optie was om beide elementen in dezelfde parent te zetten waardoor het een lange grid werd. Ik merkte dat dit best goed ging. Het was even uitvogelen hoe en wat met responsiveness maar na even gezeten te hebben met sanne ben ik eruit gekomen en het resultaat was zoals de volgende foto.
 
 ![figma-1](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/schets-figma-2.png)
 
-## Error state 
+### Error state 
 Wanneer iemand geen internet heeft heb ik een error state voor gemaakt. Ik ben eerst begonnen met schetsen.
 -insert foto
 
@@ -254,7 +254,7 @@ Hierna ben ik dingen gaan uitproberen in codepen. Uiteindelijk is dit eruit geko
 
 [codepen link](https://codepen.io/hilal-tapan/pen/rNQaemz?editors=1100)
 
-## Hamburger menu
+### Hamburger menu
 Voor small screen hadden we een hamburger menu nodig. Ik nam deze taak op me omdat ik graag beter wil worden in client side javascript, ik ben hier niet zo goed in namelijk. Het ging eigenlijk best wel goed.
 
 ![hamburgir](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/hamburger.png )
@@ -272,7 +272,7 @@ function toggleMenu() {
 export { toggleMenu }
 ```
 
-## User pop-up
+### User pop-up
 Ook hadden we een manier nodig om op de detailpage informatie te zien over de delers. Omdat het er zoveel zijn wouden we niet bij iedereen de naam displayen omdat de pagina dan onwijs lang zou worden. Een scroll zou op mobile heel rot zijn als je de footer wou bereiken moetje dan eerst door alle leden scrollen. Hierdoor begon ik met een hover state te maken die de naam zou displayen, het beroep en een linkje naar de pagina van de user. Echter werkt hover niet op mobiel. Dus ik koos ervoor het met click te doen.
 
 ![pop-up](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/pop-up-detail.png )
@@ -294,7 +294,7 @@ Ook vroeg ik zelf hoe we met socket.io de messages met de meeste likes kunnen di
 - array van user id’s
 - de eerste drie entries pakken met meeste likes
   
-### Opdrachtgever feedback - 09/06
+## Opdrachtgever feedback - 09/06
 - Duidelijker maken dat de filter kun je uitklappen.
 - Treftwoord opzoeken.
 - Nieuwe design voor detailpagina
@@ -321,7 +321,134 @@ Volgende maandag hebben we een sessie met Koop en we gaan de feedback toepassen 
 <br>
 
 # Intro week 3
+Deze week was een belangrijk moment voor onze designs en voortgang. We hebben hele fijne design feedback ontvangen in deze week waardoor we belangrijke keuzes hebben moeten maken.
 
-## Wat heb ik gedaan deze week
+## Wat heb ik gedaan deze week?
+* Nieuwe schetsen chat/ berichten
+* Nieuwe schetsen van detailpage
+* Detail page opnieuw coderen 
+* User info weergeven
+* Grid aanpassen van detailpagina
+* Fetch van content op detailpage
+* Presentatie maken voor klant
+
+***
+
+Verder gingen we als groep aan de slag met herontwerpen van de detailpagina van een wens. We hebben een aantal iteraties gemaakt op Figma en uiteindelijk hebben we een design gekozen. Hilal ging het pagina uitwerken in code We hebben de hoogtepunten van een reacties verwijdert en in plaats daarvan de trekkers, helpers en delers wat meer ruimtes gegeven. Omdat de delers misschien te groot kan zijn hebben we besloten om de om alleen de profielfoto te laten zien, dan wordt het makkelijker om meer delers naast elkaar te laten zien. Als je de naam van de deler wilt zien kan je op de profielfoto klikken. Dan komt een kleine popup met de naam van de deler.
+
+We hebben hier ook een beetje gespeeld met de kleur. Aan de rechterkant hebben we een achtergrondkleur toegevoegd om een beetje wat kleurrijk te maken tussean al de witte vlakken.
+
+Als laaste kreeg de Chat een herontwerp, want de opdrachtgever zag geen toegevoegde waarde in een chat dus we hebben de interface verandert die meer lijkt reactie functionaliteit. In het volgende onderdeel ga ik meer vertellen over de chat.
+
+### Nieuwe designs detailpagina
+We gingen als groep aan de slag met het herontwerpen van de detailpagina van een wens. We hebben hoogtepunten van de chatberichten verwijderd omdat uit onze sessie met Michel kwam dat dit eigenlijk tot niet nodig bleek te zijn. In plaats daarvan hebben we de trekkers, helpers en delers wat meer ruimtes gegeven. Omdat de delers teveel zijn laten we alleen de profielfoto zien en dan met een hover of click waarmee je meer informatie kunt zien als een soort pop-up.
+
+We hebben proberen te experimenteren met kleuren uit de huisstijl om het zo vrolijk mogelijk te maken. 
+
+Ook hadden we als feedback gekregen van Michel dat de chat niet veel toegevoegde waarde had en dat dit beter berichten konden zijn. Dus hebben we dit ook maar gelijk aangepast in de designs.
+
+![design-page](https://github.com/K3A101/meesterproef-2223/blob/main/images/detailpagina-design-1.png)
+
+### Nieuwe designs van berichten
+We hadden als feedback gekregen van Michel dat de chat niet veel toegevoegde waarde had en dat dit beter berichten konden zijn zoals ze nu eigenlijk al doen. Dus hebben we dit ook maar gelijk aangepast in de designs. Hij ziet chat echt iets als whatsApp vibe. Hierdoor hebben we de naam veranderd naar reacties. De naam kan al veel doen. Maar niet genoeg dus hiervoor hebben we nieuwe designs gemaakt en nieuwe functionaliteiten te implementeren:
+* Bekijken hoeveel reacties er zijn
+* Reageren op een reactie (could have)
+* Reactie kunnen liken (could have)
+* Bekijken wie online is
+* Datum wanneer het geplaatst is
+
+![chat-design](https://github.com/K3A101/meesterproef-2223/blob/main/images/detailpagina-design-1.png)
+
+
+### Fetch content detailpagina uit de database
+Verder ben ik bezig geweest met het fetchen van de content op de detailpagina en dan voornamelijk het wens artikel en alles wat erbij hoort. Dit vond ik even spannend omdat ik lang niet aan de slag was geweest met een database. Als database gebruiken we supabase die Jevona heeft opgezet. We hebben een paar endpoints gemaakt om de data te fetchen. We hebben een datamodel om de structuur van de data te kunnen zien.
+
+![datamodel](https://github.com/K3A101/meesterproef-2223/blob/main/images/datamodel-database.png)
+
+Voor de detailpage had ik verschillende data nodig:
+- titel van de wens
+- beschrijving van de wens
+- Aantal reageerders en trekkers
+- Datum wanneer het gemaakt is
+- afbeelding van de wens
+
+#### Code hiervan
+```js
+router.get("/wens/:id", async (req, res) => {
+  const suggestionId = req.params.id;
+  const { data: suggestionData, error } = await supabase
+    .from("suggestion")
+    .select()
+    .eq("id", suggestionId)
+    .single();
+
+  let defaultTime = suggestionData.created_at;
+  let date = new Date(defaultTime).toLocaleDateString("nl-NL", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+```
+
+```html
+ <section class="wish">
+            <div id="img-container">
+                <img src="<%= suggestion.image%> " alt="Vanuit de natuur">
+            </div>
+            <article>
+                <h2> <%= suggestion.title %> </h2>
+                <h3> <%= suggestion.theme.label %> </h3>
+                <p id="time"> Geplaatst op <%= time %></p>
+                <p> <%= suggestion.description %> </p>
+                <section class="join">
+                    <button>Word trekker</button>
+                    <button>Help mee</button>
+                    <button>Deel deze wens</button>
+                </section>
+            </article>
+  </section>
+```
+
+***
+
+# Feedback
+## Design review - 15/06
+design sessie sanne
+Uit deze sessie kreeg ik feel fijne feedback. Ik kreeg te horen dat de designs veel op nieuwsartikelen leken van zowel Sanne als van de studenten die bij de sessie aanwezig waren. Ik was het hier best wel mee eens en dat was gewoon wat de website uitstraalde. Hier wil je eigenlijk vanaf en hierdoor raadde Sanne me aan om durven af te wijken van de huisstijl. Dit kan op verschillende manieren door bijv. kleuren toe te voegen of vormen aan te passen etc. Hij wou voorral dat we dingen ontwierpen waar wij warm van werden.
+
+## Code review - 14/06
+Ik heb een code review sessie gehad met Justus. De belangrijke punten die hieruit kwamen was dat hij het afraadde om bij de chat/berichten op elkaar te reageren.
+Dit kan met threads in socket.io en hier is weinig over online. Het is best wel complex en hij raad het aan om het gewoon te faken en een could have van te maken.
+
+Mochten we het wel willen doen perse kan dit door alle chatberichten in database opslaan en id meegeven.
+  
+## Opdrachtgever feedback - 15/06
+- Hij wil rekening houden met duurzaamheid bij de website. Serverside is duurzamer dan client side. Hij wil het liefst zoveel mogelijk op de server side.
+- Die pop up met chat met deze persoon moet een link zijn naar de detail pagina, op de detail pagina kan je chatten?
+- Filteren en zoeken op trefwoord moet naast elkaar en op een andere plek de sorteren
+- vaste verhouding voor images 4 staat tot 3.
+
+***
+
+# Conclusie
+## Reflectie
+Deze week was weer een succesvolle week. We hebben veel feedback gekregen en hebben hard gewerkt om dit toe te passen. Soms voelde we ons wat sip door het continue feedback krijgen en het gevoel hebben dat veel ideeën worden geweigerd. Maar dit is ook een leermoment voor ons om te werken met een opdrachtgever. 
+Ik vind de communicatie in ons team nog steeds erg fijn verlopen, we zijn erg stabiel in onze omgang en afspraken en dit resulteert tot mooie resultaten en dat we bijlopen met onze planning. Dit is fijn want hierdoor hebben we plezier bij deze opdracht. 
+We hebben waardevolle feedback gekregen van onze docenten de afgelopen week wat wel veel tijd heeft gekost te implementeren dus onze werkzaamheden bestonden voornamelijk hieruit
+
+## Hoe verder?
+Nieuwe designs maken!!! Alweer.. Maargoed het is voor een goede reden en hopelijk zullen we niet extreem veel code moeten herschrijven. Na de nieuwe ontwerpjes zullen we deze coderen. Ook gaan we ons volgende week focussen op animaties waar ik erg zin in heb want animeren is leuk.
+
+</details>
+
+
+
+<details>
+<summary>Week 4</summary>
+<br>
+
+Na de design review sessie kregen we de feedback dat onze designs simpelweg saai waren en teveel nieuwsartikel uitstraalde. De huisstijl deed de pagina niet veel goeds en we werden uitgedaagd om hiermee te experimenteren en zo nodig af te wijken om vervolgens de opdrachtgever te overtuigen. Toen ik dit hoorde dacht ik neee... Niet alweer nieuwe designs. Maar toch zette we ermee voort want we waren het er wel mee eens dat de huidige designs nieuws artikel vibes uitstraalde. Keihsa en ik gingen aan de slag in Figma en dit is de uitkomst van de detailpage.
 
 </details>
