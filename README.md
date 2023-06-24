@@ -357,7 +357,7 @@ We hadden als feedback gekregen van Michel dat de chat niet veel toegevoegde waa
 * Bekijken wie online is
 * Datum wanneer het geplaatst is
 
-![chat-design](https://github.com/K3A101/meesterproef-2223/blob/main/images/detailpagina-design-1.png)
+![chat-design](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/chat.png)
 
 
 ### Fetch content detailpagina uit de database
