@@ -443,6 +443,128 @@ Nieuwe designs maken!!! Alweer.. Maargoed het is voor een goede reden en hopelij
 <summary>Week 4</summary>
 <br>
 
-Na de design review sessie kregen we de feedback dat onze designs simpelweg saai waren en teveel nieuwsartikel uitstraalde. De huisstijl deed de pagina niet veel goeds en we werden uitgedaagd om hiermee te experimenteren en zo nodig af te wijken om vervolgens de opdrachtgever te overtuigen. Toen ik dit hoorde dacht ik neee... Niet alweer nieuwe designs. Maar toch zette we ermee voort want we waren het er wel mee eens dat de huidige designs nieuws artikel vibes uitstraalde. Keihsa en ik gingen aan de slag in Figma en dit is de uitkomst van de detailpage.
+# Intro week 4
+Dit was de week waar we extreem veel progressie hebben geboekt in het project. Deze week voelde als een maand, we hebben vele mooie dingen gemaakt en vernieuwd.
+
+## Wat heb ik gedaan deze week?
+* Styling nieuwe design afmaken van detailpage
+* Animatie van banner overview page en Prefer reduced motion
+* teksten schrijven voor database description van de id’s
+* sessie met koop
+* loading state op de form before succes state
+* microinteracties
+* Form styling aangepast op de nieuwe designs
+* linkjes naar detail page users gezet van database
+* displaying the fetches van de database randomly op de overzicht pagina
+* Veel errors gefixt
+
+***
+
+## Herontwerp detailpage
+Na de design review sessie kreeg ik de feedback dat de designs teveel nieuwsartikel uitstraalde. De huisstijl deed de pagina niet veel goeds en we werden uitgedaagd om hiermee te experimenteren en zo nodig af te wijken om vervolgens de opdrachtgever te overtuigen! Toen ik dit hoorde dacht ik neee... Niet alweer nieuwe designs. Maar toch zette we ermee voort want we waren het er wel mee eens dat de huidige designs nieuws artikel vibes uitstraalde en ook maakte het ons niet extreem enthousiast. Keisha en ik gingen aan de slag in Figma en dit is de uitkomst van de detailpage.
+
+![nieuwe designs]()
+
+Vervolgens heb ik dit omgezet naar code. Ik liep hier en daar tegen wat kleine dingetjes aan maar allemaal op kunnen lossen gelukkig.
+
+
+## Loading state die naar succespage leidt
+Vervolgens ben ik aan de slag gegaan met een loading state op de form page bij het posten naar de database. Hierna kom je op een succespage. De loading state zit dus hier tussen. Bij het drukken op de submit knop word deze knop disabled voor een paar seconde en zal je een loading animatie zien met de tekst voor dus een paar seconde. Hierna ga je naar de succes page.
+
+![loading state]()
+
+
+## Animatie banner
+Ook ben ik aan de slag gegaan met animaties. In de banner staat een slogan en deze heb ik geanimeerd. Het bovenste woord springt en het derde woord beweegt heen en weer schuin. 
+
+### De code
+
+```css
+.slogan-container span:nth-child(1) {
+  background-color: var(--blue);
+  color: var(--white);
+  transform: rotate(5deg);
+
+  animation-name: slogan-1;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(0.125, 0.995, 1, 1);
+}
+
+.slogan-container span:nth-child(3) {
+  background-color: var(--white);
+  color: var(--black);
+  animation-name: slogan-2;
+  animation-duration: 0.9s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(0.125, 0.995, 1, 1);
+}
+
+@keyframes slogan-1 {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-1rem);
+  }
+}
+
+@keyframes slogan-2 {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(-8deg);
+  }
+}
+```
+
+### Prefer reduced motion
+Sommige mensen kunnen gevoelig zijn voor bewegende elementen op een webpagina of in een applicatie. Deze bewegingen kunnen symptomen veroorzaken zoals duizeligheid, misselijkheid of hoofdpijn. Dit geldt met name voor mensen met aandoeningen zoals vestibulaire stoornissen, epilepsie of migraine. Door een voorkeur voor verminderde beweging in te bouwen, kunnen deze mensen een meer comfortabele gebruikerservaring hebben.
+
+```css
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0s !important;
+    transition-duration: 0s !important;
+    transform: none !important;
+  }
+}
+```
+
+## Displaying randomly fetches van de database op overzichtpagina
+Op de overview page krijgen we fetches uit de database. We vonden het belangrijk dat elke keer bij het herladen deze random werden laten zien maar niet de laatste wensen, dit moeten elke keer de nieuwst toegevoegde blijven. Om dit te bereiken heb ik
+
+
+## Herontwerp form
+
+## Linkjes naar detailpage uit de database
+
+***
+
+
+# Feedback
+## Design review - 
+
+
+## Code review - 
+
+  
+## Opdrachtgever feedback - 
+
+
+***
+
+# Conclusie
+## Reflectie
+
+
+## Hoe verder?
+
+
 
 </details>
