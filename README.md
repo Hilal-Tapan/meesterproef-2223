@@ -457,6 +457,7 @@ Dit was de week waar we extreem veel progressie hebben geboekt in het project. D
 * linkjes naar detail page users gezet van database
 * displaying the fetches van de database randomly op de overzicht pagina
 * Veel errors gefixt
+* Refactoring van alle code
 
 ***
 
@@ -475,7 +476,7 @@ Vervolgens ben ik aan de slag gegaan met een loading state op de form page bij h
 
 
 ## Animatie banner
-Ook ben ik aan de slag gegaan met animaties. In de banner staat een slogan en deze heb ik geanimeerd. Het bovenste woord springt en het derde woord beweegt heen en weer schuin. 
+Ook ben ik aan de slag gegaan met animaties. In de banner staat een slogan en deze heb ik geanimeerd. Het bovenste woord springt en het derde woord beweegt heen en weer schuin. We hebben animaties toegevoegd op aanraden van Vasilis. En het was echt een goede tip want het maakt het gelijk een stuk leuker.
 
 ### De code
 
@@ -537,34 +538,149 @@ Sommige mensen kunnen gevoelig zijn voor bewegende elementen op een webpagina of
 ```
 
 ## Displaying randomly fetches van de database op overzichtpagina
-Op de overview page krijgen we fetches uit de database. We vonden het belangrijk dat elke keer bij het herladen deze random werden laten zien maar niet de laatste wensen, dit moeten elke keer de nieuwst toegevoegde blijven. Om dit te bereiken heb ik
+Op de overview page krijgen we fetches uit de database. We vonden het belangrijk dat elke keer bij het herladen deze random werden laten zien maar niet de laatste wensen, dit moeten elke keer de nieuwst toegevoegde blijven. Om dit te bereiken heb ik lodash gedownload
 
+```js
+// require lodash npm, natuurlijk wel ff downloaden in terminal
+const _ = require('lodash');
+
+// Deze regel maakt gebruik van de _.shuffle-functie van lodash om de elementen in de suggestionsData-array willekeurig te herschikken. De herschikte array wordt opgeslagen in de variabele shuffledSuggestionsData.
+const shuffledSuggestionsData = _.shuffle(suggestionsData);
+
+// Door de arrays loopen om de juiste te vinden
+ for (const suggestion of shuffledSuggestionsData) {
+    const relatedTheme = themeSuggestions.find(
+      (ts) => ts.suggestionId === suggestion.id
+    );
+
+    if (relatedTheme) {
+      const theme = themeData.find((t) => t.id === relatedTheme.themaId);
+
+      if (theme) {
+        suggestion.theme = theme;
+      }
+    }
+  }
+
+  for (const latestSuggestion of latestSuggestionsData) {
+    const latestRelatedTheme = themeSuggestions.find(
+      (ts) => ts.suggestionId === latestSuggestion.id
+    );
+
+    if (latestRelatedTheme) {
+      const theme = themeData.find((t) => t.id === latestRelatedTheme.themaId);
+
+      if (theme) {
+        latestSuggestion.theme = theme;
+      }
+    }
+  }
+```
 
 ## Herontwerp form
+Ook hebben we een herontwerp gemaakt voor de form. De form was eerst erg hoekig en deze hebben we iets organischer gemaakt. Ik heb dit design opgepakt vanuit Laiba en vervolgens is zij er later weer mee verder gegaan. Er waren veel kleine dingen die niet best practises waren, deze heb ik aangepast. Ook heb ik het form volledig responsive gemaakt. Ik vond het leuk om even met iets anders bezig te zijn dan de detailpage. 
+
+![foto form nieuw design]()
+
 
 ## Linkjes naar detailpage uit de database
+Op de detailpage hebben we trekkers, helpers en delers. Dit hadden we eerst gefaked met elke keer dezelfde persoon. Nu hebben we het echt werkend gemaakt. Jevona heeft het opgeroepen uit de database en ik heb de routes gezet in html bij de juiste plekken op de detailpage.
+
+```html
+<ul>
+                    <li>
+                        <img src="/images/mia.png" alt="">
+                        <a href="/user/Mia" id="help-link">
+                            <h3>Mia Thompson</h3>
+                            <h4>Modeblogger</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="/images/emma.png" alt="">
+                        <a href="/user/Emma" id="help-link">
+                            <h3>Emma Johnson</h3>
+                            <h4>Digitale Marketing Specialist</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="/images/david.png" alt="">
+                        <a href="/user/David" id="help-link">
+                            <h3>David Nguyen</h3>
+                            <h4>Software Engineer</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="/images/mia.png" alt="">
+                        <a href="/user/Mia" id="help-link">
+                            <h3>Mia Thompson</h3>
+                            <h4>Docent</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="/images/jaap.png" alt="">
+                        <a href="/user/Jaap" id="help-link">
+                            <h3>Jaap Erts</h3>
+                            <h4>Docent</h4>
+                        </a>
+                    </li>
+
+                </ul>
+```
+
+Ik heb deze src opgehaald uit de database json file.
+![foto-database]()
+
+
+## Refactoring van alle code
+Aan het einde van sprint 4 hebben we een refactoring dag ingepland waar we met zijn alle de code gingen refactoren. Een aantal dingen hebben we samen gedaan op het grote scherm en een aantal dingen solo. Ik kreeg de taak samen met keisha om alle px waardes te veranderen naar em. We hebben de css opgesplits tussen ons twee. Dit ging best wel goed en het geeft alles even een mooiere structuur en is gelijk netter. Ook hadden we wat dingen toegevoegd in de :root, zoals 3 verschillende border-radius, die ik heb toegepast op de paginas.
 
 ***
 
 
 # Feedback
-## Design review - 
+## Design review - 22/06
+Ik had deze week een design review met Sanne. De vorige keer had Sanne veel feedback gegeven en dit keer hadden we dit toegepast. Hij leek het er een stuk beter uit te zien vinden. Hij had dit keer ook geen kritiek.
 
+Wel gaf hij de feedback dat de loading state niet loading maar even geduld, versturen of laden kon zijn. Omdat de website Nederlands is is het gek om engelse woorden te gebruiken. 
 
-## Code review - 
+Verder had ik een vraag over hoe ik me loading state het beste kon positioneren en hij gaf aan dat ik:
+- class op html bij button click
+- eraf als het gelukt is
+- tegen de html te zeggen overflow hidden
 
+## Code review - 21/06
+- Doe een lighthouse check en zorg voor een hoge score
+- html validator
+- web developer toolbars kan uitgeprobeerd worden
   
-## Opdrachtgever feedback - 
+## Opdrachtgever feedback - 23/06
+- filter sorteren etc een stukje eronder onder de meest recente wensen plaatsen
+- meer thema’s bij overzicht pagina op 1 wens
+- max 3 thema’s in het formulier afdwingen
+- bij overzichtpagina even kijken of we de afbeelding omdraaien of hem wat hoger maken.
+- Of gewoon goed verwoorden waarom. -> titel is belangrijk
 
+- filter visualiseren en niet in code
+- die icoontjes op overzicht op 1 lijntje  overzichtpagina
+- visualisatie hoe je kan zien welke themas het meeste voorkomen
+- Wat niet heel erg naar voren komt is duurzaamheid en sociaal in de artikelen
+- in de oproep daarboven. Helpt mee om strandeiland zo duurzaam mogelijk te maken?
+- bij form u en uw veranderen naar jij en jouw
+- tijden database kloppen niet
 
 ***
 
 # Conclusie
 ## Reflectie
-
+We hebben dus veel progressie geboekt deze week. Het was keihard werken. Ook vonden we het best wel spannend om de nieuwe designs te laten zien aan de opdrachtgever. Achteraf gezien hebben we de juiste keuze gemaakt vinden wij als groepje door de designs toe te passen. De samenwerking ging goed. Ik merkte wel dat deze week er ook veel fout ging, veel bugs, veel pull requests die niet doorkwamen  en veel dingen die opnieuw geschreven moesten worden. Dit nam ontzettend veel tijd in beslag helaas maar dit zijn ook weer leer momentjes. We zijn een beetje gestrest voor volgende week omdat er nog zoveel moet gebeuren en we moeten nu echt prioriteiten stellen.
 
 ## Hoe verder?
-
+- De feedback van Michel toepassen
+- lighthouse testen doen en verbeteren
+- documentatie
+- puntjes op de i
+- presentatie voorbereiden
+- stand voorbereiden
 
 
 </details>
