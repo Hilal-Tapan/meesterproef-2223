@@ -627,7 +627,7 @@ Op de detailpage hebben we trekkers, helpers en delers. Dit hadden we eerst gefa
                 </ul>
 ```
 
-Ik heb deze src opgehaald uit de database json file.
+Ik heb deze href dus opgehaald uit de database json file.
 ![foto-database]()
 
 
