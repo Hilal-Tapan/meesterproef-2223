@@ -444,7 +444,7 @@ Nieuwe designs maken!!! Alweer.. Maargoed het is voor een goede reden en hopelij
 <br>
 
 # Intro week 4
-Dit was de week waar we extreem veel progressie hebben geboekt in het project. Deze week voelde als een maand, we hebben vele mooie dingen gemaakt en vernieuwd.
+Dit was de week waar we extreem veel progressie hebben geboekt in het project. Deze week voelde als een maand, we hebben vele mooie dingen gemaakt en vernieuwd. Ook liepen we deze week tegen veel dingen aan die je kan terug lezen in mijn reflectie.
 
 ## Wat heb ik gedaan deze week?
 * Styling nieuwe design afmaken van detailpage
@@ -466,7 +466,7 @@ Na de design review sessie kreeg ik de feedback dat de designs teveel nieuwsarti
 
 ![nieuwe designs](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/detailpagina-sprint3.jpg)
 
-Vervolgens heb ik dit omgezet naar code. Ik liep hier en daar tegen wat kleine dingetjes aan maar allemaal op kunnen lossen gelukkig.
+Vervolgens heb ik dit omgezet naar code. Dit ging goed!
 
 
 ## Loading state die naar succespage leidt op formpage
@@ -634,11 +634,10 @@ Op de detailpage hebben we trekkers, helpers en delers. Dit hadden we eerst gefa
                 </ul>
 ```
 
-Ik heb deze href dus opgehaald uit de database json file.
 ![foto-database](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/insomnia.png)
 
+Ik heb deze href dus opgehaald uit de database json file.
 In het begin was het even een puzzel hoe ik moest werken in insomnia en hoe in de users moest ophalen, maar toen legde Jevona me het uit en hierna snapte ik het.
-
 
 ## Refactoring van alle code
 Aan het einde van sprint 4 hebben we een refactoring dag ingepland waar we met zijn alle de code gingen refactoren. Een aantal dingen hebben we samen gedaan op het grote scherm en een aantal dingen solo. Ik kreeg de taak samen met keisha om alle px waardes te veranderen naar em. We hebben de css opgesplits tussen ons twee. Dit ging best wel goed en het geeft alles even een mooiere structuur en is gelijk netter. Ook hadden we wat dingen toegevoegd in de :root, zoals 3 verschillende border-radius, die ik heb toegepast op de paginas.
@@ -693,3 +692,16 @@ We hebben dus veel progressie geboekt deze week. Het was keihard werken. Ook von
 
 
 </details>
+
+
+<details>
+<summary>Week 5</summary>
+<br>
+
+  
+</details>
+
+***
+
+# Reflectie
+
