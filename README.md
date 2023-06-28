@@ -14,6 +14,9 @@ Het bedrijf CrossmarX wil een nieuwe functionaliteit toevoegen voor de hallostra
 
 * Als projectmanager van de gemeente, wil ik voorstellen van toekomstige bewoners kunnen filteren op thema's, zodat ik per thema kan bekijken of er ideeën bijzitten die kunnen bijdragen aan een lagere ecologische footprint, of betere sociale cohesie van de wijk.
 
+***
+
+# Wekelijkse log
 <details>
 <summary>Week 1</summary>
 <br>
@@ -697,7 +700,11 @@ We hebben dus veel progressie geboekt deze week. Het was keihard werken. Ook von
 <details>
 <summary>Week 5</summary>
 <br>
+  
+# Intro week 5
+D
 
+## Wat heb ik gedaan deze week?
   
 </details>
 
