@@ -705,3 +705,17 @@ We hebben dus veel progressie geboekt deze week. Het was keihard werken. Ook von
 
 # Reflectie
 
+## wat heb ik geleerd
+## wat ging er goed
+## wat ging er minder goed
+## waar ben ik trots op
+
+***
+
+# Toepassing van de minor web vakken
+## Web app from scratch
+## Progressive web app
+## Css to the rescue
+## Browser tech
+## Human centered design
+
