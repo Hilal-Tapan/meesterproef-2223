@@ -464,19 +464,21 @@ Dit was de week waar we extreem veel progressie hebben geboekt in het project. D
 ## Herontwerp detailpage
 Na de design review sessie kreeg ik de feedback dat de designs teveel nieuwsartikel uitstraalde. De huisstijl deed de pagina niet veel goeds en we werden uitgedaagd om hiermee te experimenteren en zo nodig af te wijken om vervolgens de opdrachtgever te overtuigen! Toen ik dit hoorde dacht ik neee... Niet alweer nieuwe designs. Maar toch zette we ermee voort want we waren het er wel mee eens dat de huidige designs nieuws artikel vibes uitstraalde en ook maakte het ons niet extreem enthousiast. Keisha en ik gingen aan de slag in Figma en dit is de uitkomst van de detailpage.
 
-![nieuwe designs]()
+![nieuwe designs](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/detailpagina-sprint3.jpg)
 
 Vervolgens heb ik dit omgezet naar code. Ik liep hier en daar tegen wat kleine dingetjes aan maar allemaal op kunnen lossen gelukkig.
 
 
-## Loading state die naar succespage leidt
-Vervolgens ben ik aan de slag gegaan met een loading state op de form page bij het posten naar de database. Hierna kom je op een succespage. De loading state zit dus hier tussen. Bij het drukken op de submit knop word deze knop disabled voor een paar seconde en zal je een loading animatie zien met de tekst voor dus een paar seconde. Hierna ga je naar de succes page.
+## Loading state die naar succespage leidt op formpage
+Vervolgens ben ik aan de slag gegaan met een loading state op de form page bij het posten naar de database. Hierna kom je op een succespage. De loading state zit dus hier tussen. Bij het drukken op de submit knop word deze knop disabled voor een paar seconde en zal je een loading animatie zien met de tekst voor dus een paar seconde. Hierna ga je naar de succes page. Ik heb gebruik gemaakt van een css animatie in combinatie met javascript. Wanneer iemand op de submit button klikt bij de form, wordt deze knop disabled en krijg je een animatie te zien met de tekst voor een paar seconden. Hierna wordt de gebruiker geleid naar de succespage.
 
 ![loading state]()
 
+Echter ging er teveel mis op de form page waardoor ik de loading state even on hold liet totdat de form helemaal klaar zou zijn. Alleen waren hier wat dingetjes mee waardoor het tot aan het laatste minuut nog niet up en running was. Hierdoor heb ik besloten de loadingstate als could have te zetten.
+
 
 ## Animatie banner
-Ook ben ik aan de slag gegaan met animaties. In de banner staat een slogan en deze heb ik geanimeerd. Het bovenste woord springt en het derde woord beweegt heen en weer schuin. We hebben animaties toegevoegd op aanraden van Vasilis. En het was echt een goede tip want het maakt het gelijk een stuk leuker.
+Ook ben ik aan de slag gegaan met animaties. In de banner staat een slogan en deze heb ik geanimeerd. Het bovenste woord springt en het derde woord beweegt heen en weer schuin. We hebben animaties toegevoegd op aanraden van Vasilis en het was echt een goede tip want het maakt het gelijk een stuk leuker.
 
 ### De code
 
