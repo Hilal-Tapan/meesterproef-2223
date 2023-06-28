@@ -480,7 +480,7 @@ Echter ging er teveel mis op de form page waardoor ik de loading state even on h
 ## Animatie banner
 Ook ben ik aan de slag gegaan met animaties. In de banner staat een slogan en deze heb ik geanimeerd. Deze animatie is ook toegepast op de tekst bij de successtate van de form. Het bovenste woord springt en het derde woord beweegt heen en weer schuin. We hebben animaties toegevoegd op aanraden van Vasilis en het was echt een goede tip want het maakt het gelijk een stuk leuker. 
 
-![animatie](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/loading-state.png)
+![animatie](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/animatie.png)
 
 ### De code
 ```css
@@ -530,6 +530,8 @@ Ook ben ik aan de slag gegaan met animaties. In de banner staat een slogan en de
 ### Prefer reduced motion
 Sommige mensen kunnen gevoelig zijn voor bewegende elementen op een webpagina of in een applicatie. Deze bewegingen kunnen symptomen veroorzaken zoals duizeligheid, misselijkheid of hoofdpijn. Dit geldt met name voor mensen met aandoeningen zoals vestibulaire stoornissen, epilepsie of migraine. Door een voorkeur voor verminderde beweging in te bouwen, kunnen deze mensen een meer comfortabele gebruikerservaring hebben.
 
+Voor onze website heb ik dit toegepast en we hebben dit gezet in the global.css zodat het op elke pagina wordt gepakt.
+
 ```css
 @media (prefers-reduced-motion: reduce) {
   * {
@@ -544,7 +546,7 @@ Sommige mensen kunnen gevoelig zijn voor bewegende elementen op een webpagina of
 Op de overview page krijgen we fetches uit de database. We vonden het belangrijk dat elke keer bij het herladen deze random werden laten zien maar niet de laatste wensen, dit moeten elke keer de nieuwst toegevoegde blijven. Om dit te bereiken heb ik lodash gedownload
 
 ```js
-// require lodash npm, natuurlijk wel ff downloaden in terminal
+// require lodash npm, natuurlijk wel downloaden in de terminal
 const _ = require('lodash');
 
 // Deze regel maakt gebruik van de _.shuffle-functie van lodash om de elementen in de suggestionsData-array willekeurig te herschikken. De herschikte array wordt opgeslagen in de variabele shuffledSuggestionsData.
