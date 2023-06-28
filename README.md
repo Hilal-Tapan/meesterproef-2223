@@ -585,7 +585,9 @@ const shuffledSuggestionsData = _.shuffle(suggestionsData);
 ## Herontwerp form
 Ook hebben we een herontwerp gemaakt voor de form. De form was eerst erg hoekig en deze hebben we iets organischer gemaakt. Ik heb dit design opgepakt vanuit Laiba en vervolgens is zij er later weer mee verder gegaan. Er waren veel kleine dingen die niet best practises waren, deze heb ik aangepast. Ook heb ik het form volledig responsive gemaakt. Ik vond het leuk om even met iets anders bezig te zijn dan de detailpage. 
 
-![foto form nieuw design]()
+![foto form nieuw design](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/form-nieuwDesigns.png)
+
+Echter ging het wel heel vaak fout met het mergen van deze styling en heb ik het 3/4 keer opnieuw moeten toepassen totdat het gepakt werd in de main. Ik denk dat het kwam omdat ik dan een pull request maakte en Laiba had main niet gepulled en dan maakte zij later ook een pull request met oude styling code nog erin. Dus dit is een les voor de volgende keer.
 
 
 ## Linkjes naar detailpage uit de database
@@ -635,6 +637,8 @@ Op de detailpage hebben we trekkers, helpers en delers. Dit hadden we eerst gefa
 Ik heb deze href dus opgehaald uit de database json file.
 ![foto-database]()
 
+In het begin was het even een puzzel hoe ik moest werken in insomnia maar toen legde Jevona me het uit en hierna snapte ik het.
+
 
 ## Refactoring van alle code
 Aan het einde van sprint 4 hebben we een refactoring dag ingepland waar we met zijn alle de code gingen refactoren. Een aantal dingen hebben we samen gedaan op het grote scherm en een aantal dingen solo. Ik kreeg de taak samen met keisha om alle px waardes te veranderen naar em. We hebben de css opgesplits tussen ons twee. Dit ging best wel goed en het geeft alles even een mooiere structuur en is gelijk netter. Ook hadden we wat dingen toegevoegd in de :root, zoals 3 verschillende border-radius, die ik heb toegepast op de paginas.
@@ -677,7 +681,7 @@ Verder had ik een vraag over hoe ik me loading state het beste kon positioneren 
 
 # Conclusie
 ## Reflectie
-We hebben dus veel progressie geboekt deze week. Het was keihard werken. Ook vonden we het best wel spannend om de nieuwe designs te laten zien aan de opdrachtgever. Achteraf gezien hebben we de juiste keuze gemaakt vinden wij als groepje door de designs toe te passen. De samenwerking ging goed. Ik merkte wel dat deze week er ook veel fout ging, veel bugs, veel pull requests die niet doorkwamen  en veel dingen die opnieuw geschreven moesten worden. Dit nam ontzettend veel tijd in beslag helaas maar dit zijn ook weer leer momentjes. We zijn een beetje gestrest voor volgende week omdat er nog zoveel moet gebeuren en we moeten nu echt prioriteiten stellen.
+We hebben dus veel progressie geboekt deze week. Het was keihard werken. Ook vonden we het best wel spannend om de nieuwe designs te laten zien aan de opdrachtgever. Achteraf gezien hebben we de juiste keuze gemaakt vinden wij als groepje door de designs toe te passen. De samenwerking ging goed. Ik merkte wel dat deze week er ook veel fout ging, veel bugs, veel pull requests die niet doorkwamen en veel dingen die opnieuw geschreven moesten worden. Dit nam ontzettend veel tijd in beslag helaas maar dit zijn ook weer leer momentjes. We zijn een beetje gestrest voor volgende week omdat er nog zoveel moet gebeuren en we moeten nu echt prioriteiten stellen.
 
 ## Hoe verder?
 - De feedback van Michel toepassen
