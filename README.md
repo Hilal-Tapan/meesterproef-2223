@@ -472,16 +472,17 @@ Vervolgens heb ik dit omgezet naar code. Ik liep hier en daar tegen wat kleine d
 ## Loading state die naar succespage leidt op formpage
 Vervolgens ben ik aan de slag gegaan met een loading state op de form page bij het posten naar de database. Hierna kom je op een succespage. De loading state zit dus hier tussen. Bij het drukken op de submit knop word deze knop disabled voor een paar seconde en zal je een loading animatie zien met de tekst voor dus een paar seconde. Hierna ga je naar de succes page. Ik heb gebruik gemaakt van een css animatie in combinatie met javascript. Wanneer iemand op de submit button klikt bij de form, wordt deze knop disabled en krijg je een animatie te zien met de tekst voor een paar seconden. Hierna wordt de gebruiker geleid naar de succespage.
 
-![loading state]()
+![loading state](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/loading-state.png)
 
 Echter ging er teveel mis op de form page waardoor ik de loading state even on hold liet totdat de form helemaal klaar zou zijn. Alleen waren hier wat dingetjes mee waardoor het tot aan het laatste minuut nog niet up en running was. Hierdoor heb ik besloten de loadingstate als could have te zetten.
 
 
 ## Animatie banner
-Ook ben ik aan de slag gegaan met animaties. In de banner staat een slogan en deze heb ik geanimeerd. Het bovenste woord springt en het derde woord beweegt heen en weer schuin. We hebben animaties toegevoegd op aanraden van Vasilis en het was echt een goede tip want het maakt het gelijk een stuk leuker.
+Ook ben ik aan de slag gegaan met animaties. In de banner staat een slogan en deze heb ik geanimeerd. Deze animatie is ook toegepast op de tekst bij de successtate van de form. Het bovenste woord springt en het derde woord beweegt heen en weer schuin. We hebben animaties toegevoegd op aanraden van Vasilis en het was echt een goede tip want het maakt het gelijk een stuk leuker. 
+
+![animatie](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/loading-state.png)
 
 ### De code
-
 ```css
 .slogan-container span:nth-child(1) {
   background-color: var(--blue);
