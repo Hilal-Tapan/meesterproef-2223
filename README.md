@@ -635,9 +635,9 @@ Op de detailpage hebben we trekkers, helpers en delers. Dit hadden we eerst gefa
 ```
 
 Ik heb deze href dus opgehaald uit de database json file.
-![foto-database]()
+![foto-database](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/insomnia.png)
 
-In het begin was het even een puzzel hoe ik moest werken in insomnia maar toen legde Jevona me het uit en hierna snapte ik het.
+In het begin was het even een puzzel hoe ik moest werken in insomnia en hoe in de users moest ophalen, maar toen legde Jevona me het uit en hierna snapte ik het.
 
 
 ## Refactoring van alle code
