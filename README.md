@@ -467,7 +467,7 @@ Dit was de week waar we extreem veel progressie hebben geboekt in het project. D
 ## Herontwerp detailpage
 Na de design review sessie kreeg ik de feedback dat de designs teveel nieuwsartikel uitstraalde. De huisstijl deed de pagina niet veel goeds en we werden uitgedaagd om hiermee te experimenteren en zo nodig af te wijken om vervolgens de opdrachtgever te overtuigen! Toen ik dit hoorde dacht ik neee... Niet alweer nieuwe designs. Maar toch zette we ermee voort want we waren het er wel mee eens dat de huidige designs nieuws artikel vibes uitstraalde en ook maakte het ons niet extreem enthousiast. Keisha en ik gingen aan de slag in Figma en dit is de uitkomst van de detailpage.
 
-![nieuwe designs](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/detailpagina-sprint3.jpg)
+![nieuwe designs](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/goede-detail.png )
 
 Vervolgens heb ik dit omgezet naar code. Dit ging goed!
 
@@ -702,9 +702,53 @@ We hebben dus veel progressie geboekt deze week. Het was keihard werken. Ook von
 <br>
   
 # Intro week 5
-D
+De laatste loodjes! Dit is de laatste week en er moet nog het een en ander gebeuren. Deze week zal ik aan de slag gaan met de laatste code afronden, refactoring en veel documentatie. Ook zullen we de presentaties moeten voorbereiden. 
 
 ## Wat heb ik gedaan deze week?
+- Leren hoe insomnia (database)  werkt en hoe je dingen ophaalt verwijderd hieruit
+- Detailpage, userpage en formfixing van de overflowing uit het grid.
+- Op elke pagina responsiveness gefixt
+- Website getest op verschillende devices en browsers
+- lighthouse desktop testing
+- focus on accessibility en dit toegepast in code
+- Refactoring van veel dingen op verschillende paginas
+- Werken aan product bio
+- Moscow visualisatie gemaakt
+- powerpoint voor presentatie donderdag gemaakt
+- spellingschecks wiki en readme voor iedereen
+- alles tabbable gemaakt
+
+***
+
+## Nieuwe moscow visuals
+Deze sprint hebben we even een nieuwe moscow gemaakt om een overzicht te hebben wat we nog moeten meenemen en of we iets zijn vergeten. Dit hebben we gedaan op aanraden van Koop. Ik heb de visualisatie hiervan gemaakt.
+
+![moscow](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/MOSCOW-goede.png)
+
+
+## Lighthouse testing
+We vonden het belangrijk om even lighthouse te testen om de performance omhoog te krijgen. In de normale browser was de performance score iets van 43. We schrokken erg toen we dit zagen. In incognito modus was de score al een stukje hoger, namelijk iets van 63? Ik ben aan de slag gegaan om dit omhoog te krijgen.
+
+![lighthouse]()
+
+![lighthouse]()
+
+![lighthouse]()
+
+![lighthouse]()
+
+
+
+***
+
+# Conclusie
+## Reflectie
+Dit was de week met de laatste loodjes. We hebben veel puntjes op de i gezet deze week door te refactoren. Ook hebben we veel lighthouse testen gedaan om een goede score te krijgen op zowel desktop als mobiel om het zo accessible mogelijk te krijgen. Ik heb zelf nog getest op verschillende devices en op verschillende browsers. Op safari merkte ik wat foutjes omdat niet alles wordt ondersteund en op Chrome moest je ontwikkelaarstools tools aan hebben om het te kunnen zien. We merkte dat het niet heel accessible was, dus hebben we dit verwijderd uit het design. 
+Verder ben ik deze week aan de slag gegaan met de poster en de presentatie. De poster is voor vrijdag en die zullen we bij de presentatie tafel ophangen. De presentatie heb ik gemaakt voor donderdag wanneer we zijn gaan presenteren voor de opdrachtgever bij de gemeente van Amsterdam.
+Ook hebben we veel documentatie geschreven in deze week, we hebben dit verdeeld tussen de leden en iedereen heeft documentatie taken op zich genomen. Mijn taak was het schrijven van stukjes tekst en een spellingcheck. Bij de spellingcheck kwam ik veel stukken tegen die we waren vergeten te typen dus heb ik dit erbij getypt.
+
+## Hoe verder?
+Ik hoop dat we het halen en niet verder hoeven.
   
 </details>
 
