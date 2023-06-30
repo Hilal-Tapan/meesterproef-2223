@@ -800,11 +800,29 @@ Ik hoop dat we het halen en niet verder hoeven.
 ***
 
 # Reflectie
+Het einde is aangebroken. Het waren vijf leerzame, maar ook extreem vermoeiende weken naar mijn ervaring. We hebben zo hard gewerkt, dat ik helemaal kapot ben. Ik heb onwijs veel geleerd van alle vakken bij elkaar. We hebben samengewerkt met scrum en scrum is altijd goed! Ik merk dat elk project waar we met scrum werken gewoon beter gaat en iedereen zich verantwoordelijk voelt voor haar eigen taken. Ik vond onze coach ontzettend fijn en betrokken, dus hier hadden we veel geluk mee. Koop was echt een duwtje in onze rug tijdens dit project. Daarnaast vond ik het ook heel fijn om regelmatig code en design reviews te hebben en te sparren met andere docenten. Dit leidde je ook weer richting de juiste directie. Plus het was gewoon fijn om op school hieraan te kunnen werken en met medestudenten over de opdrachten te kunnen praten. Ook werkte het motiverend om andere studenten te zien werken.
 
-## wat heb ik geleerd
-## wat ging er goed
-## wat ging er minder goed
-## waar ben ik trots op
+## Wat heb ik geleerd?
+Tijdens de afgelopen weken heb ik vooral geleerd hoe ik effectief aan een frontend project kan werken binnen een team.  Ik heb ik veel geleerd over het omgaan met databases en het integreren ervan in een project. Voorheen maakte ik meestal gebruik van externe API's om gegevens op te halen, maar deze keer hebben we Supabase gebruikt. Het was een nieuwe stap en zeker een uitdaging om de gegevens op te halen en te verwerken. Maar met de documentatie van Jevona en haar uitleg snapte ik het al gauw en heb het kunnen implementeren in de detailpage.
+
+Het werken met Git en versiebeheer bracht soms uitdagingen met zich mee, vooral wanneer het ging om merge conflicten. Gelukkig hebben we door middel van duidelijke communicatie en goede afspraken een solide GitHub workflow kunnen opzetten.
+
+Als laatste, maar zeker niet minder belangrijk, heb ik geleerd hoe ik een concept moet ontwikkelen dat voldoet aan de criteria van een opdrachtgever. Door te luisteren naar zijn feedback en suggesties, kon ik het prototype itereren en verder verbeteren. Hierdoor heb ik kunnen ervaren hoe het is om met een klant te werken en dit is een hele waardevolle ervaring naar mijn mening.
+
+Al met al waren dit waardevolle lessen die ik tijdens dit project heb geleerd. Het werken met een team, het omgaan met databases, het beheren van versiecontrole en het ontwikkelen van een concept op basis van klantcriteria hebben mijn vaardigheden aanzienlijk verbeterd.
+
+## Wat ging er goed?
+* Leerzaam: De afgelopen vijf weken waren voor mij persoonlijk erg leerzaam. Ik heb enorm veel geleerd van alle vakken die ik heb gevolgd. Het was een waardevolle ervaring waarin ik mijn kennis en vaardigheden kon vergroten. 
+* Samenwerking met Scrum: Het werken met Scrum is altijd een succes gebleken. Ik merkte dat elk project waarin we met Scrum werkten gewoon beter ging. Het gaf me het gevoel dat iedereen zich verantwoordelijk voelde voor hun eigen taken en dat droeg bij aan het succes van het project. 
+* Betrokken coach: Ik had het geluk om een coach te hebben die ontzettend fijn en betrokken was. Ik voelde me echt gesteund door de coach en dit heeft zeker bijgedragen aan het positieve verloop van het project. 
+* Code- en designreviews: Het was voor mij ook heel fijn om regelmatig code- en designreviews te hebben en te kunnen sparren met andere docenten. Deze feedback sessies hebben me geholpen om de juiste richting te bepalen en mijn werk te verbeteren. Het gaf me ook de mogelijkheid om van anderen te leren en nieuwe inzichten op te doen.
+
+Daarnaast ging het werken met de nieuwe termen en technische dingen ook goed. Ik denk dat dit kwam omdat er altijd wel iemand in je team zit die weet hoe het werkt en die kan het prima uitleggen wanneer je inlezen niet genoeg is. Dit was het geval bij Supabase en insomnia. Jevona die kon het prima uitleggen aan ons waardoor we het hierna zelfstandig konden gebruiken.
+
+## Wat ging er minder goed?
+
+
+## Waar ben ik trots op?
 
 ***
 
@@ -814,4 +832,19 @@ Ik hoop dat we het halen en niet verder hoeven.
 ## Css to the rescue
 ## Browser tech
 ## Human centered design
+
+***
+
+# Bronnen
+- Mozilla Developer Network. (z.d.). CSS @media/prefers-reduced-motion. Geraadpleegd van https://developer.mozilla.org/nl/docs/Web/CSS/@media/prefers-reduced-motion
+- Mozilla Developer Network. (z.d.). CSS background-position. Geraadpleegd van https://developer.mozilla.org/nl/docs/Web/CSS/background-position
+- Mozilla Developer Network. (z.d.). CSS border-top-left-radius. Geraadpleegd van https://developer.mozilla.org/nl/docs/Web/CSS/border-top-left-radius
+- Mozilla Developer Network. (z.d.). CSS contain. Geraadpleegd van https://developer.mozilla.org/nl/docs/Web/CSS/contain
+- YouTube. (Jaar, Maand Dag). Titel van de video [Video]. Geraadpleegd van https://www.youtube.com/watch?v=ZVug65gW-fc
+- Shooft. (z.d.). CSS Filter: Desaturate Example [CodePen]. Geraadpleegd van https://codepen.io/shooft/pen/xxVmpEP?editors=0110
+- Stack Overflow. (Jaar, Maand Dag). Verander kleur van de laatste letter. Geraadpleegd van https://stackoverflow.com/questions/15441742/change-last-letter-color
+- Stack Overflow. (Jaar, Maand Dag). Command not found na npm install in Zsh. Geraadpleegd van https://stackoverflow.com/questions/12743928/command-not-found-after-npm-install-in-zsh
+- Mozilla Developer Network. (z.d.). CSS filter. Geraadpleegd van https://developer.mozilla.org/nl/docs/Web/CSS/filter
+- npm. (z.d.). lodash. Geraadpleegd van https://www.npmjs.com/package/lodash
+- Mozilla Developer Network. (z.d.). CSS box-sizing. Geraadpleegd van https://developer.mozilla.org/nl/docs/Web/CSS/box-sizing
 
