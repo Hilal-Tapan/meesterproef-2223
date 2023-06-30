@@ -833,10 +833,49 @@ Kortom, ik ben trots op het project zelf, de toepassing van mijn opgedane kennis
 
 # Toepassing van de minor web vakken
 ## Web app from scratch
-## Progressive web app
+User Interface - you design, build and test the user interface by applying interface design principles.
+- Dit komt zeker aan bod! Ik heb een user interface gedesigned, gebouwd en getest. Hierbij heb ik design principles toegepast en het proces is te zien in mijn weeklogs.
+
+Code structure - you write modular, consistent and efficient HTML, CSS and JavaScript code by applying structure and best practices. You manage state for the application and the UI
+- Ook dit komt aan bod binnen ons project. Ik heb coding standards opgesteld met mijn team waar we hebben gekeken naar best practises. Vervolgens hebben we meerdere refactor sessions gehad waar we alle code doorliepen en gingen verbeteren.
+
+Data management - you understand how you can work with an external API using asynchronous code. You can retrieve data, manipulate and dynamically convert it to structured html
+- We hebben Supabase gebruikt om data op te halen. Jevona heeft Supabase opgezet en het hele team heeft er request naar gedaan om bepaalde data op te halen. In mijn wekelijkse logs kun je zien hoe ik dit precies heb gedaan. Het was een uitdaging om weer is met een database aan de slag te gaan maar heel leerzaam en even een opfrisser van blok tech. Dus dit punt komt zeker aan bod.
+
+Project - your app is working and published on GitHub Pages. Your project is thoroughly documented in the README.md file in your repository.
+- Ook dit komt uiteraard aan bod en is ook een beetje vanzelfsprekend. Het hele project staat op github en we hebben het uitgebreid gedocumenteerd.
+
 ## Css to the rescue
+Je hebt begrip van de volle kracht en mogelijkheden van CSS. Je laat zien dat CSS meer kan dan allen web pages 'stylen'.
+- Ik heb gebruik gemaakt van veschillende animaties zoals de slogan animatie en de offline state animatie. Vooral de offline state animatie waren de docenten verrast dat ik dit in CSS-only had gedaan. Hierbij heb ik mezelf echt uitgedaagd nieuwe technieken te gebruiken. Dus ja dit punt komt zeker aan bod en alles is te vinden in het wekelijkse proces.
+
+Je hebt begrip van de interactie-technieken van CSS (en HTML). De UX is aangenaam bruikbaar binnen de gekozen context(en).
+- Ik heb gebruik gemaakt van interactie technieken van zowel css als html. We kregen tijdens de design reviews dat we hier lekker mee aan de slag moesten en hebben dit ook toegepast door de site heen. Verschillende dingen zoals hovers, uitklapmenu’s, cursors die veranderen als iets klikbaar is etc.
+
+## Progressive web app
+Project Your app is published and can be accessed using the browser. Your project is thoroughly documented in the README.md file in your repository. Included are an explanation of client- server rendering, an activity diagram including the Service Worker and a list of enhancements to optimize the critical render path implemented your app.
+- We hebben een service side rendering toegepast, een service worker waarin ik dingen uit de assets heb verwijderd en weet hoe die werkt (hij is alleen wel opgezet door Jevona). Ook heb ik veel testjes uitgevoerd zoals lighthouse testing om de performance te verbeteren. Hier kun je meer over lezen bij week 5. Daarnaast heb ik de readme goed gedocumenteerd en de code uitgelegd in de documentatie van zowel de groep als individueel.
+
+Serverside rendering You’ve implemented serverside rendering and have articulated how it works and why you should want it.
+- Ja, dit komt zeker aan bod binnen ons project. Ik heb gebruik gemaakt samen met mijn groepje van server side rendering en hebben hierin gewerkt gedurende het hele project.
+
+Critical render path You’ve enhanced the critical render path for a better runtime or percieved performance in multiple ways and have described how you managed to do this.
+- Yes, ik heb lighthouse testing gedaan om de performance, maar ook accesibility en andere aspecten te verbeteren. Hier kun je meer over lezen bij week 5.
+
+
 ## Browser tech
+Je leert Browser Technologies te onderzoeken, testen en implementeren als enhancement.
+- Tijdens de meesterproef hebben we veel getest, vooral in week 5. Ik heb het idee dat ik hier echt op hamerde dat we dit echt moesten doen dus ik ben hier ook mee begonnen. Ik ben begonnen met testen op verschillende devices en twee verschillende browsers. Hierna ben ik gaan kijken of alles tabbable is op desktop en of mensen hier doorheen kunnen komen met toetsenbord. Vervolgens heb ik lighthouse testing gedaan om zowel de performance als accesibility en andere puntjes te verbeteren. Je kunt hier meer over lezen bij week 5.
+
 ## Human centered design
+Leren hoe je (design) principles in een ontwerp kan toepassen.
+- Ja dit komt aan bod in het project. Ik heb best veel gedesigned vooral in de eerste weken. Hierbij hebben we gebruik gemaakt van design principles en heb deze ook nog regelmatig opgezocht tijdens het schetsen. Ik vond het fijn om een uitgangspunt te hebben omdat tijdens het schetsen zoveel mogelijkheden mogelijk zijn. 
+
+User needs begrijpen en gebruiken in je ontwerp.
+- Door wekelijks te testen met Michel begonnen we heb steeds beter te begrijpen en wat hij precies wou met Strandeiland. Hierdoor begonnen we de users ook steeds beter te leren kennen en hoe zij de website gebruikte. Hierop konden wij inwerken en dit toepassen in onze designs. 
+
+Leren hoe je moet testen en de resultaten gebruiken voor het verbeteren van je ontwerp.
+- We hebben wekelijkse meetings gehad met Michel waar we door de designs en website gingen met hem. Hierdoor hebben we het wekelijks getest en geïtereerd. Dit heeft ertoe geleid dat we het ontwerp steeds beter konden maken en dus verbeteren. Dus ja dit punt komt ook zeker aan bod in dit project en je kunt mijn wekelijkse proces lezen als ondersteuning hiervan.
 
 ***
 
@@ -852,4 +891,9 @@ Kortom, ik ben trots op het project zelf, de toepassing van mijn opgedane kennis
 - Mozilla Developer Network. (z.d.). CSS filter. Geraadpleegd van https://developer.mozilla.org/nl/docs/Web/CSS/filter
 - npm. (z.d.). lodash. Geraadpleegd van https://www.npmjs.com/package/lodash
 - Mozilla Developer Network. (z.d.). CSS box-sizing. Geraadpleegd van https://developer.mozilla.org/nl/docs/Web/CSS/box-sizing
+- https://vasilis.nl/nerd/the-exclusive-design-principles/
+- https://baymard.com/learn/ux-design-principles
+- https://principles.design/
+- https://lucidspark.com/blog/ux-design-best-practices
+- https://docs.mendix.com/howto/front-end/ux-best-practices/ 
 
