@@ -717,6 +717,7 @@ De laatste loodjes! Dit is de laatste week en er moet nog het een en ander gebeu
 - powerpoint voor presentatie donderdag gemaakt
 - spellingschecks wiki en readme voor iedereen
 - alles tabbable gemaakt
+- Testen op verschillende browsers en devices
 
 ***
 
@@ -727,17 +728,55 @@ Deze sprint hebben we even een nieuwe moscow gemaakt om een overzicht te hebben 
 
 
 ## Lighthouse testing
-We vonden het belangrijk om even lighthouse te testen om de performance omhoog te krijgen. In de normale browser was de performance score iets van 43. We schrokken erg toen we dit zagen. In incognito modus was de score al een stukje hoger, namelijk iets van 63? Ik ben aan de slag gegaan om dit omhoog te krijgen.
+We vonden het belangrijk om even lighthouse te testen om de performance omhoog te krijgen. In de normale browser was de performance score iets van 43. We schrokken erg toen we dit zagen. In incognito modus was de score al een stukje hoger, namelijk iets van 75. Ik ben aan de slag gegaan om dit omhoog te krijgen.
 
-![lighthouse]()
+![lighthouse](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/eerste-homepage.png)
+Dit was de eerste score. Ik zag dat toegankelijkheid niet op 100 zat dus ben als eerste hiermee aan de slag gegaan.
 
-![lighthouse]()
+![lighthouse](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/button%20names.png)
 
-![lighthouse]()
+![lighthouse](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/toegankelijker%20gemaakt.png)
+Ik heb alle buttons een aria-label gegeven. Ik merkte dat de score al een stukje omhoog ging.
 
-![lighthouse]()
+![lighthouse](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/tweede-homepage.png)
+De score van toegankelijkheid is nu 100. Yay!
 
+![lighthouse](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/img%20naar%20webp.png)
+Nu is het tijd om performance te verbeteren. Alle img die naar webp kunnen heb ik hiernaar veranderd.
 
+![lighthouse](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/alle%20img%20width%20en%20height.png)
+Ook heb ik alle img een widht en heihgt meegegeven.
+
+![lighthouse](https://github.com/Hilal-Tapan/meesterproef-2223/blob/main/docs/img/derde-homepage.png)
+Oke, performance is iets omhoog gegaan! Hierna heeft een ander teamlid het opgepakt en hebben het uiteindelijk tot 98 procent gekregen.
+
+## Alles tabbable gemaakt
+Toen ik testte of alles tabbable was, kwam ik erachter dat dit niet zo was. Hierdoor heb ik veel code moeten refactoren. Alle li’tjes hebben een tabindex gekregen die niet tabbable waren. Bij de delers heb ik een button om de container gezet zodat deze tabbable zijn en nu kun je ze ook uitklappen met het toetsenbord.
+
+```html
+<li class="box-click">
+                        <button>
+                            <img src="/images/emma.png" alt="emma">
+                            <div class="box" aria-label="profiel van emma johnson">
+                                <h3>Emma John</h3>
+                                <h4>Docent</h4>
+                                <a href="/user/Emma">Bekijk profiel</a>
+                            </div>
+                        </button>
+                    </li>
+                    <li class="box-click">
+                        <button>
+                            <img src="/images/mia.png" alt="mia">
+                            <div class="box" aria-label="profiel van mia thompson">
+                                <h3>Mia Thomps</h3>
+                                <h4>Docent</h4>
+                                <a href="/user/Mia">Bekijk profiel</a>
+                            </div>
+                        </button>
+```
+
+## Testen op verschillende devices en browsers
+Ik dacht er nog even aan om op safari en chrome mobile te testen omdat we dit nog niet hadden gedaan. Gelukkig ging het grotendeels goed hierop. Enkel hadden we toen nog iets gebruikt op de overview page wat alleen werkte met chrome dev tools aan. Dit hebben we weggehaald omdat we merkte dat niemand dit aan zou zetten en de site er alleen maar kapot door leek. Nadat dit was weggehaald werkte het allemaal prima.
 
 ***
 
