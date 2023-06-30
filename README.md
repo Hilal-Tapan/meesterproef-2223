@@ -816,13 +816,18 @@ Al met al waren dit waardevolle lessen die ik tijdens dit project heb geleerd. H
 * Samenwerking met Scrum: Het werken met Scrum is altijd een succes gebleken. Ik merkte dat elk project waarin we met Scrum werkten gewoon beter ging. Het gaf me het gevoel dat iedereen zich verantwoordelijk voelde voor hun eigen taken en dat droeg bij aan het succes van het project. 
 * Betrokken coach: Ik had het geluk om een coach te hebben die ontzettend fijn en betrokken was. Ik voelde me echt gesteund door de coach en dit heeft zeker bijgedragen aan het positieve verloop van het project. 
 * Code- en designreviews: Het was voor mij ook heel fijn om regelmatig code- en designreviews te hebben en te kunnen sparren met andere docenten. Deze feedback sessies hebben me geholpen om de juiste richting te bepalen en mijn werk te verbeteren. Het gaf me ook de mogelijkheid om van anderen te leren en nieuwe inzichten op te doen.
-
-Daarnaast ging het werken met de nieuwe termen en technische dingen ook goed. Ik denk dat dit kwam omdat er altijd wel iemand in je team zit die weet hoe het werkt en die kan het prima uitleggen wanneer je inlezen niet genoeg is. Dit was het geval bij Supabase en insomnia. Jevona die kon het prima uitleggen aan ons waardoor we het hierna zelfstandig konden gebruiken.
+* Daarnaast ging het werken met de nieuwe termen en technische dingen ook goed. Ik denk dat dit kwam omdat er altijd wel iemand in je team zit die weet hoe het werkt en die kan het prima uitleggen wanneer je inlezen niet genoeg is. Dit was het geval bij Supabase en insomnia. Jevona die kon het prima uitleggen aan ons waardoor we het hierna zelfstandig konden gebruiken.
+* De samenwerking binnen de groep verliep goed. We hadden goede communicatie en duidelijke taakafspraken. Dagelijkse stand-ups en het gebruik van GitHub Projects en issues bevorderden onze samenwerking en taakverdeling.
 
 ## Wat ging er minder goed?
-
+In ons team werden we regelmatig geconfronteerd met merge conflicten, wat resulteerde in het herhaaldelijk moeten herschrijven van code. Hoewel dit uitdagend was, beschouw ik het als een waardevol leermoment. Het dwong ons namelijk om beter te communiceren en proactief samen te werken om dergelijke conflicten te voorkomen. We hebben geleerd om regelmatig code-updates met elkaar te delen en nauwlettend in de gaten te houden welke wijzigingen anderen aanbrachten. Dit leerproces heeft ons bewust gemaakt van het belang van een goede versioncontrol en heeft ons geholpen om in de toekomst efficiënter met merge conflicten om te gaan.
 
 ## Waar ben ik trots op?
+Ik voel me trots op het project dat we hebben neergezet. Het was een plezierig maar intens project waarin ik de kennis kon toepassen die ik tijdens deze Minor heb opgedaan. Ik ben ook trots op de nieuwe dingen die ik heb geleerd van andere vakken en hoe ik deze kennis in de praktijk heb toegepast. Hierdoor heb ik de nieuwe informatie goed kunnen opnemen en effectief kunnen gebruiken tijdens het project.
+
+Daarnaast ben ik trots op mijn teamleden en de manier waarop we met elkaar zijn omgegaan. Er was goede samenwerking, duidelijke communicatie en een eerlijke taakverdeling. We hebben goed samengewerkt en dit heeft bijgedragen aan het succes van het project.
+
+Kortom, ik ben trots op het project zelf, de toepassing van mijn opgedane kennis, de samenwerking met mijn teamleden en de nieuwe vaardigheden die ik heb geleerd. Het was een waardevolle ervaring waarin ik mezelf kon ontwikkelen en mijn capaciteiten kon tonen.
 
 ***
 
